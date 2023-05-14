@@ -3,6 +3,7 @@
     {
       "name": "Venator remains",
       "site": "Zaros",
+      "level": 5,
       "materials": [
         {
           "material": "Third Age iron",
@@ -17,6 +18,7 @@
     {
       "name": "Legionary remains",
       "site": "Zaros",
+      "level": 12,
       "materials": [
         {
           "material": "Third Age iron",
@@ -34,6 +36,7 @@
     },
     {
       "name": "Castra debris",
+      "level": 17,
       "site": "Zaros",
       "materials": [
         {
@@ -57,6 +60,7 @@
     {
       "name": "Lodge bar storage",
       "site": "Zamorak",
+      "level": 20,
       "materials": [
         {
           "material": "Third Age iron",
@@ -75,6 +79,7 @@
     {
       "name": "Lodge art storage",
       "site": "Zamorak",
+      "level": 24,
       "materials": [
         {
           "material": "Samite silk",
@@ -97,6 +102,7 @@
     {
       "name": "Administratum debris",
       "site": "Zaros",
+      "level": 25,
       "materials": [
         {
           "material": "Ancient vis",
@@ -119,6 +125,7 @@
     {
       "name": "Cultist footlocker",
       "site": "Zamorak",
+      "level": 29,
       "materials": [
         {
           "material": "Leather scraps",
@@ -141,6 +148,7 @@
     {
       "name": "Sacrificial altar",
       "site": "Zamorak",
+      "level": 36,
       "materials": [
         {
           "material": "Goldrune",
@@ -163,6 +171,7 @@
     {
       "name": "Prodromoi remains",
       "site": "Saradomin",
+      "level": 42,
       "materials": [
         {
           "material": "Third Age iron",
@@ -181,6 +190,7 @@
     {
       "name": "Dis dungeon debris",
       "site": "Zamorak",
+      "level": 45,
       "materials": [
         {
           "material": "Third Age iron",
@@ -203,6 +213,7 @@
     {
       "name": "Praesidio remains",
       "site": "Zaros",
+      "level": 47,
       "materials": [
         {
           "material": "Third Age iron",
@@ -225,6 +236,7 @@
     {
       "name": "Monoceros remains",
       "site": "Saradomin",
+      "level": 48,
       "materials": [
         {
           "material": "Leather scraps",
@@ -263,6 +275,7 @@
     {
       "name": "Amphitheatre debris",
       "site": "Saradomin",
+      "level": 51,
       "materials": [
         {
           "material": "Goldrune",
@@ -285,6 +298,7 @@
     {
       "name": "Ceramics studio debris",
       "site": "Saradomin",
+      "level": 56,
       "materials": [
         {
           "material": "Goldrune",
@@ -299,6 +313,7 @@
     {
       "name": "Carcerem debris",
       "site": "Zaros",
+      "level": 58,
       "materials": [
         {
           "material": "Goldrune",
@@ -321,6 +336,7 @@
     {
       "name": "Stadio debris",
       "site": "Saradomin",
+      "level": 61,
       "materials": [
         {
           "material": "Samite silk",
@@ -343,6 +359,7 @@
     {
       "name": "Infernal art",
       "site": "Zamorak",
+      "level": 65,
       "materials": [
         {
           "material": "Samite silk",
@@ -365,6 +382,7 @@
     {
       "name": "Shakroth remains",
       "site": "Zamorak",
+      "level": 68,
       "materials": [
         {
           "material": "Third Age iron",
@@ -387,6 +405,7 @@
     {
       "name": "Dominion Games podium",
       "site": "Saradomin",
+      "level": 69,
       "materials": [
         {
           "material": "Goldrune",
@@ -409,6 +428,7 @@
     {
       "name": "Ikovian memorial",
       "site": "Armadyl",
+      "level": 70,
       "materials": [
         {
           "material": "Third Age iron",
@@ -431,6 +451,7 @@
     {
       "name": "Oikos studio debris",
       "site": "Saradomin",
+      "level": 72,
       "materials": [
         {
           "material": "Keramos",
@@ -453,6 +474,7 @@
     {
       "name": "Kharid-et chapel debris",
       "site": "Zaros",
+      "level": 74,
       "materials": [
         {
           "material": "White oak",
@@ -475,6 +497,7 @@
     {
       "name": "Gladiatorial goblin remains",
       "site": "Bandos",
+      "level": 76,
       "materials": [
         {
           "material": "Malachite green",
@@ -497,6 +520,7 @@
     {
       "name": "Keshik ger",
       "site": "Armadyl",
+      "level": 76,
       "materials": [
         {
           "material": "Leather scraps",
@@ -519,6 +543,7 @@
     {
       "name": "Animal trophies",
       "site": "Zamorak",
+      "level": 81,
       "materials": [
         {
           "material": "Orthenglass",
@@ -541,6 +566,7 @@
     {
       "name": "Pontifex remains",
       "site": "Zaros",
+      "level": 81,
       "materials": [
         {
           "material": "Zarosian insignia",
@@ -563,6 +589,7 @@
     {
       "name": "Crucible stands debris",
       "site": "Bandos",
+      "level": 81,
       "materials": [
         {
           "material": "Fossilised bone",
@@ -581,6 +608,7 @@
     {
       "name": "Tailory debris",
       "site": "Armadyl",
+      "level": 81,
       "materials": [
         {
           "material": "Samite silk",
@@ -603,6 +631,7 @@
     {
       "name": "Goblin dorm debris",
       "site": "Bandos",
+      "level": 83,
       "materials": [
         {
           "material": "White oak",
@@ -625,6 +654,7 @@
     {
       "name": "Oikos fishing hut remnants",
       "site": "Saradomin",
+      "level": 84,
       "materials": [
         {
           "material": "Third Age iron",
@@ -647,6 +677,7 @@
     {
       "name": "Weapons research debris",
       "site": "Armadyl",
+      "level": 85,
       "materials": [
         {
           "material": "Orthenglass",
@@ -669,6 +700,7 @@
     {
       "name": "Orcus altar",
       "site": "Zaros",
+      "level": 86,
       "materials": [
         {
           "material": "Vellum",
@@ -691,6 +723,7 @@
     {
       "name": "Dis overspill",
       "site": "Zamorak",
+      "level": 89,
       "materials": [
         {
           "material": "Third Age iron",
@@ -713,6 +746,7 @@
     {
       "name": "Big High War God shrine",
       "site": "Bandos",
+      "level": 89,
       "materials": [
         {
           "material": "Samite silk",
@@ -735,6 +769,7 @@
     {
       "name": "Varanusaur remains",
       "site": "Dragonkin",
+      "level": 90,
       "materials": [
         {
           "material": "Compass rose",
@@ -753,6 +788,7 @@
     {
       "name": "Gravitron research debris",
       "site": "Armadyl",
+      "level": 91,
       "materials": [
         {
           "material": "Orthenglass",
@@ -775,6 +811,7 @@
     {
       "name": "Acropolis debris",
       "site": "Saradomin",
+      "level": 92,
       "materials": [
         {
           "material": "Goldrune",
@@ -797,6 +834,7 @@
     {
       "name": "Armarium debris",
       "site": "Zaros",
+      "level": 93,
       "materials": [
         {
           "material": "Third Age iron",
@@ -815,6 +853,7 @@
     {
       "name": "Yu'biusk animal pen",
       "site": "Bandos",
+      "level": 94,
       "materials": [
         {
           "material": "Yu'biusk clay",
@@ -837,6 +876,7 @@
     {
       "name": "Keshik tower debris",
       "site": "Armadyl",
+      "level": 95,
       "materials": [
         {
           "material": "White oak",
@@ -859,6 +899,7 @@
     {
       "name": "Dragonkin reliquary",
       "site": "Dragonkin",
+      "level": 96,
       "materials": [
         {
           "material": "Dragon metal",
@@ -877,6 +918,7 @@
     {
       "name": "Goblin trainee remains",
       "site": "Bandos",
+      "level": 97,
       "materials": [
         {
           "material": "Third Age iron",
@@ -899,6 +941,7 @@
     {
       "name": "Byzroth remains",
       "site": "Zamorak",
+      "level": 98,
       "materials": [
         {
           "material": "White oak",
@@ -921,6 +964,7 @@
     {
       "name": "Destroyed golem",
       "site": "Armadyl",
+      "level": 98,
       "materials": [
         {
           "material": "Vellum",
@@ -943,6 +987,7 @@
     {
       "name": "Dragonkin coffin",
       "site": "Dragonkin",
+      "level": 99,
       "materials": [
         {
           "material": "Orgone",
@@ -964,7 +1009,8 @@
     },
     {
       "name": "Icyene weapon rack",
-      "site": "Armadyl",
+      "site": "Saradomin",
+      "level": 100,
       "materials": [
         {
           "material": "Leather scraps",
@@ -979,6 +1025,7 @@
     {
       "name": "Culinarum debris",
       "site": "Zaros",
+      "level": 100,
       "materials": [
         {
           "material": "Imperial steel",
@@ -1001,6 +1048,7 @@
     {
       "name": "Kyzaj champion's boudoir",
       "site": "Bandos",
+      "level": 100,
       "materials": [
         {
           "material": "White oak",
@@ -1019,6 +1067,7 @@
     {
       "name": "Autopsy table",
       "site": "Dragonkin",
+      "level": 101,
       "materials": [
         {
           "material": "Felt",
@@ -1037,6 +1086,7 @@
     {
       "name": "Experiment workbench",
       "site": "Dragonkin",
+      "level": 102,
       "materials": [
         {
           "material": "Dragon metal",
@@ -1055,6 +1105,7 @@
     {
       "name": "Keshik weapon rack",
       "site": "Armadyl",
+      "level": 103,
       "materials": [
         {
           "material": "Stormguard steel",
@@ -1077,6 +1128,7 @@
     {
       "name": "Hellfire forge",
       "site": "Zamorak",
+      "level": 104,
       "materials": [
         {
           "material": "Cadmium red",
@@ -1099,6 +1151,7 @@
     {
       "name": "Warforge scrap pile",
       "site": "Bandos",
+      "level": 104,
       "materials": [
         {
           "material": "Third Age iron",
@@ -1113,6 +1166,7 @@
     {
       "name": "Stockpiled art",
       "site": "Saradomin",
+      "level": 105,
       "materials": [
         {
           "material": "Samite silk",
@@ -1135,6 +1189,7 @@
     {
       "name": "Aughra remains",
       "site": "Dragonkin",
+      "level": 106,
       "materials": [
         {
           "material": "Orgone",
@@ -1157,6 +1212,7 @@
     {
       "name": "Ancient magick munitions",
       "site": "Zaros",
+      "level": 107,
       "materials": [
         {
           "material": "Vellum",
@@ -1179,6 +1235,7 @@
     {
       "name": "Moksha device",
       "site": "Dragonkin",
+      "level": 108,
       "materials": [
         {
           "material": "Orgone",
@@ -1197,6 +1254,7 @@
     {
       "name": "Bibliotheke debris",
       "site": "Saradomin",
+      "level": 109,
       "materials": [
         {
           "material": "Goldrune",
@@ -1219,6 +1277,7 @@
     {
       "name": "Chthonian trophies",
       "site": "Zamorak",
+      "level": 110,
       "materials": [
         {
           "material": "White oak",
@@ -1241,6 +1300,7 @@
     {
       "name": "Warforge weapon rack",
       "site": "Bandos",
+      "level": 110,
       "materials": [
         {
           "material": "Fossilised bone",
@@ -1259,6 +1319,7 @@
     {
       "name": "Flight research debris",
       "site": "Armadyl",
+      "level": 111,
       "materials": [
         {
           "material": "Samite silk",
@@ -1281,6 +1342,7 @@
     {
       "name": "Aetherium forge",
       "site": "Armadyl",
+      "level": 112,
       "materials": [
         {
           "material": "Goldrune",
@@ -1303,6 +1365,7 @@
     {
       "name": "Xolo mine",
       "site": "Dragonkin",
+      "level": 113,
       "materials": [
         {
           "material": "Goldrune",
@@ -1321,6 +1384,7 @@
     {
       "name": "Praetorian remains",
       "site": "Zaros",
+      "level": 114,
       "materials": [
         {
           "material": "Samite silk",
@@ -1343,6 +1407,7 @@
     {
       "name": "Bandos's sanctum debris",
       "site": "Bandos",
+      "level": 115,
       "materials": [
         {
           "material": "Fossilised bone",
@@ -1365,6 +1430,7 @@
     {
       "name": "Tsutsaroth remains",
       "site": "Zamorak",
+      "level": 116,
       "materials": [
         {
           "material": "Third Age iron",
@@ -1387,6 +1453,7 @@
     {
       "name": "Optimatoi remains",
       "site": "Saradomin",
+      "level": 117,
       "materials": [
         {
           "material": "Samite silk",
@@ -1405,6 +1472,7 @@
     {
       "name": "War table debris",
       "site": "Zaros",
+      "level": 118,
       "materials": [
         {
           "material": "White oak",
@@ -1427,6 +1495,7 @@
     {
       "name": "Howl's workshop debris",
       "site": "Armadyl",
+      "level": 118,
       "materials": [
         {
           "material": "Aetherium alloy",
@@ -1449,6 +1518,7 @@
     {
       "name": "Makeshift pie oven",
       "site": "Bandos",
+      "level": 119,
       "materials": [
         {
           "material": "Soapstone",
@@ -1467,6 +1537,7 @@
     {
       "name": "Xolo remains",
       "site": "Dragonkin",
+      "level": 119,
       "materials": [
         {
           "material": "Felt",
@@ -1489,6 +1560,7 @@
     {
       "name": "Saurthen debris",
       "site": "Dragonkin",
+      "level": 120,
       "materials": [
         {
           "material": "Dragon metal",
@@ -1507,6 +1579,7 @@
     {
       "name": "Ministry remains",
       "site": "Senntisten",
+      "level": 60,
       "materials": [
         {
           "material": "Ancient vis",
@@ -1529,6 +1602,7 @@
     {
       "name": "Cathedral debris",
       "site": "Senntisten",
+      "level": 62,
       "materials": [
         {
           "material": "Samite silk",
@@ -1551,6 +1625,7 @@
     {
       "name": "Marketplace debris",
       "site": "Senntisten",
+      "level": 63,
       "materials": [
         {
           "material": "Ancient vis",
@@ -1573,6 +1648,7 @@
     {
       "name": "Inquisitor remains",
       "site": "Senntisten",
+      "level": 64,
       "materials": [
         {
           "material": "Blood of Orcus",
@@ -1595,6 +1671,7 @@
     {
       "name": "Gladiator remains",
       "Site": "Senntisten",
+      "level": 66,
       "materials": [
         {
           "material": "Imperial steel",
@@ -1617,6 +1694,7 @@
     {
       "name": "Citizen remains",
       "site": "Senntisten",
+      "level": 67,
       "materials": [
         {
           "material": "Vellum",

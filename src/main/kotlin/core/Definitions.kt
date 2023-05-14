@@ -10,33 +10,34 @@ data class HotspotMaterialInfo(
 
 data class Hotspot(
   val name: String,
+  val level: Int,
   val materials: MutableList<HotspotMaterialInfo>
 )
 
-data class Site(
+data class DigSite(
   val name: String,
   val hotspots: MutableList<Hotspot> = mutableListOf()
 )
 
-class Sites(
-  val sites: MutableList<Site> = mutableListOf()
+class DigSites(
+  val sites: MutableList<DigSite> = mutableListOf()
 ) {
   fun getSiteByName(name: String) = sites.first { it.name == name }
 }
 
-private val sites = Sites()
+private val sites = DigSites()
 
-fun getSites(): Sites {
+fun getDigSites(): DigSites {
   if (sites.sites.isEmpty()) {
     jsonArtefacts.forEach { a ->
       if (!(sites.sites.any { it.name == a.site })) {
-        sites.sites += Site(a.site)
+        sites.sites += DigSite(a.site)
       }
     }
 
     sites.sites.forEach { s ->
-      val nextHotspots = jsonHotspots.filter { it.site == s.name }.map { currentcurrHotspot ->
-        val nextHotspotMaterialsInfos = currentcurrHotspot.materials.map { currMaterial ->
+      val nextHotspots = jsonHotspots.filter { it.site == s.name }.map { currHostspot ->
+        val nextHotspotMaterialsInfos = currHostspot.materials.map { currMaterial ->
           HotspotMaterialInfo(
             materialName = currMaterial.material,
             chance = currMaterial.chance
@@ -44,7 +45,8 @@ fun getSites(): Sites {
         }
 
         Hotspot(
-          name = currentcurrHotspot.name,
+          name = currHostspot.name,
+          level = currHostspot.level,
           materials = nextHotspotMaterialsInfos.toMutableList()
         )
       }

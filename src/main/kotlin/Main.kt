@@ -1,5 +1,5 @@
-import core.getSites
+import core.getDigSites
 
 fun main() {
-  getSites().getSiteByName("Zaros").hotspots.forEach { println(it) }
+  getDigSites().getSiteByName("Zaros").hotspots.filter { it.level >= 100 }.forEach { println(it.name) }
 }

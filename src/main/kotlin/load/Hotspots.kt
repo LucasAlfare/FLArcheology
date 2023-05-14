@@ -8,6 +8,7 @@ data class JsonHotspotMaterialInfo(
 data class JsonHotspot(
   val name: String,
   val site: String,
+  val level: Int,
   val materials: Array<JsonHotspotMaterialInfo>,
 ) {
   override fun equals(other: Any?): Boolean {
@@ -18,12 +19,14 @@ data class JsonHotspot(
 
     if (name != other.name) return false
     if (site != other.site) return false
+    if (level != other.level) return false
     return materials.contentEquals(other.materials)
   }
 
   override fun hashCode(): Int {
     var result = name.hashCode()
     result = 31 * result + site.hashCode()
+    result = 31 * result + level
     result = 31 * result + materials.contentHashCode()
     return result
   }
