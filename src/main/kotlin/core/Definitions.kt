@@ -11,6 +11,7 @@ data class HotspotMaterialInfo(
 data class Hotspot(
   val name: String,
   val level: Int,
+  val digSite: DigSite,
   val materials: MutableList<HotspotMaterialInfo>
 )
 
@@ -47,6 +48,7 @@ fun getDigSites(): DigSites {
         Hotspot(
           name = currHostspot.name,
           level = currHostspot.level,
+          digSite = s,
           materials = nextHotspotMaterialsInfos.toMutableList()
         )
       }
