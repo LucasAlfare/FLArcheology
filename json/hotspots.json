@@ -1,0 +1,1640 @@
+{
+  "hotspots": [
+    {
+      "name": "Venator remains",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "5/10"
+        },
+        {
+          "material": "Zarosian insignia",
+          "chance": "5/10"
+        }
+      ]
+    },
+    {
+      "name": "Legionary remains",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "3/10"
+        },
+        {
+          "material": "Samite silk",
+          "chance": "3/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Castra debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "4/10"
+        },
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Zarosian insignia",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Lodge bar storage",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "4/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Lodge art storage",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Cadmium red",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Administratum debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Tyrian purple",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Zarosian insignia",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Cultist footlocker",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        },
+        {
+          "material": "Chaotic brimstone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Demonhide",
+          "chance": "3/10"
+        },
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Sacrificial altar",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Cadmium red",
+          "chance": "2/10"
+        },
+        {
+          "material": "Eye of Dagon",
+          "chance": "3/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Prodromoi remains",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "4/10"
+        },
+        {
+          "material": "Keramos",
+          "chance": "3/10"
+        },
+        {
+          "material": "White marble",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Dis dungeon debris",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "3/10"
+        },
+        {
+          "material": "Chaotic brimstone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "2/10"
+        },
+        {
+          "material": "Eye of Dagon",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Praesidio remains",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Monoceros remains",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Leather scraps",
+          "chance": "3/10"
+        },
+        {
+          "material": "Cobalt blue",
+          "chance": "4/10"
+        },
+        {
+          "material": "Keramos",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Orthen rubble",
+      "site": "Drakonin",
+      "materials": [
+        {
+          "material": "Orthenglass",
+          "chance": "1/1"
+        }
+      ]
+    },
+    {
+      "name": "Dragonkin remains",
+      "site": "Drakonin",
+      "materials": [
+        {
+          "material": "Orthenglass",
+          "chance": "1/1"
+        }
+      ]
+    },
+    {
+      "name": "Amphitheatre debris",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "3/10"
+        },
+        {
+          "material": "Star of Saradomin",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Ceramics studio debris",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "5/10"
+        },
+        {
+          "material": "White marble",
+          "chance": "5/10"
+        }
+      ]
+    },
+    {
+      "name": "Carcerem debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Blood of Orcus",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Stadio debris",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Star of Saradomin",
+          "chance": "3/10"
+        },
+        {
+          "material": "Keramos",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Infernal art",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Cadmium red",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Shakroth remains",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        },
+        {
+          "material": "Chaotic brimstone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Dominion Games podium",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "3/10"
+        },
+        {
+          "material": "Star of Saradomin",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Ikovian memorial",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "3/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "3/10"
+        },
+        {
+          "material": "Stormguard steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Wings of War",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Oikos studio debris",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Keramos",
+          "chance": "2/10"
+        },
+        {
+          "material": "White marble",
+          "chance": "2/10"
+        },
+        {
+          "material": "Cobalt blue",
+          "chance": "3/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Kharid-et chapel debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "3/10"
+        },
+        {
+          "material": "Tyrian purple",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Gladiatorial goblin remains",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Malachite green",
+          "chance": "2/10"
+        },
+        {
+          "material": "Mark of the Kyzaj",
+          "chance": "3/10"
+        },
+        {
+          "material": "Vulcanised rubber",
+          "chance": "3/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Keshik ger",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        },
+        {
+          "material": "Animal furs",
+          "chance": "2/10"
+        },
+        {
+          "material": "Armadylean yellow",
+          "chance": "3/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Animal trophies",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Animal furs",
+          "chance": "3/10"
+        },
+        {
+          "material": "Cadmium red",
+          "chance": "3/10"
+        },
+        {
+          "material": "Chaotic brimstone",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Pontifex remains",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Zarosian insignia",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Crucible stands debris",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Fossilised bone",
+          "chance": "4/10"
+        },
+        {
+          "material": "Mark of the Kyzaj",
+          "chance": "3/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Tailory debris",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "3/10"
+        },
+        {
+          "material": "Armadylean yellow",
+          "chance": "3/10"
+        },
+        {
+          "material": "Animal furs",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Goblin dorm debris",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Malachite green",
+          "chance": "3/10"
+        },
+        {
+          "material": "Vulcanised rubber",
+          "chance": "2/10"
+        },
+        {
+          "material": "Yu'biusk clay",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Oikos fishing hut remnants",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "3/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "2/10"
+        },
+        {
+          "material": "Star of Saradomin",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Weapons research debris",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Wings of War",
+          "chance": "2/10"
+        },
+        {
+          "material": "Stormguard steel",
+          "chance": "3/10"
+        },
+        {
+          "material": "Aetherium alloy",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Orcus altar",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Vellum",
+          "chance": "3/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Blood of Orcus",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Dis overspill",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Cadmium red",
+          "chance": "2/10"
+        },
+        {
+          "material": "Eye of Dagon",
+          "chance": "3/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Big High War God shrine",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Malachite green",
+          "chance": "3/10"
+        },
+        {
+          "material": "Mark of the Kyzaj",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Varanusaur remains",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Compass rose",
+          "chance": "3/10"
+        },
+        {
+          "material": "Felt",
+          "chance": "3/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Gravitron research debris",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Stormguard steel",
+          "chance": "3/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        },
+        {
+          "material": "Quintessence",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Acropolis debris",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Keramos",
+          "chance": "3/10"
+        },
+        {
+          "material": "White marble",
+          "chance": "3/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Armarium debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "4/10"
+        },
+        {
+          "material": "Zarosian insignia",
+          "chance": "4/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Yu'biusk animal pen",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Yu'biusk clay",
+          "chance": "3/10"
+        },
+        {
+          "material": "Fossilised bone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Vulcanised rubber",
+          "chance": "3/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Keshik tower debris",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Stormguard steel",
+          "chance": "3/10"
+        },
+        {
+          "material": "Wings of War",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Dragonkin reliquary",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Dragon metal",
+          "chance": "5/10"
+        },
+        {
+          "material": "Compass rose",
+          "chance": "2.5/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2.5/10"
+        }
+      ]
+    },
+    {
+      "name": "Goblin trainee remains",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        },
+        {
+          "material": "Fossilised bone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Byzroth remains",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "3/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Destroyed golem",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Soapstone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Aetherium alloy",
+          "chance": "3/10"
+        },
+        {
+          "material": "Quintessence",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Dragonkin coffin",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Orgone",
+          "chance": "5/10"
+        },
+        {
+          "material": "Carbon black",
+          "chance": "2/10"
+        },
+        {
+          "material": "Compass rose",
+          "chance": "2/10"
+        },
+        {
+          "material": "Soapstone",
+          "chance": "1/10"
+        }
+      ]
+    },
+    {
+      "name": "Icyene weapon rack",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Leather scraps",
+          "chance": "5/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "5/10"
+        }
+      ]
+    },
+    {
+      "name": "Culinarum debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Imperial steel",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Blood of Orcus",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Kyzaj champion's boudoir",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "3/10"
+        },
+        {
+          "material": "Yu'biusk clay",
+          "chance": "3/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Autopsy table",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Felt",
+          "chance": "5/10"
+        },
+        {
+          "material": "Dragon metal",
+          "chance": "2.5/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "2.5/10"
+        }
+      ]
+    },
+    {
+      "name": "Experiment workbench",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Dragon metal",
+          "chance": "5/10"
+        },
+        {
+          "material": "Orgone",
+          "chance": "2.5/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "2.5/10"
+        }
+      ]
+    },
+    {
+      "name": "Keshik weapon rack",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Stormguard steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Wings of War",
+          "chance": "2/10"
+        },
+        {
+          "material": "Aetherium alloy",
+          "chance": "3/10"
+        },
+        {
+          "material": "Quintessence",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Hellfire forge",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Cadmium red",
+          "chance": "2/10"
+        },
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Eye of Dagon",
+          "chance": "3/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Warforge scrap pile",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "5/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "5/10"
+        }
+      ]
+    },
+    {
+      "name": "Stockpiled art",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Cobalt blue",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Aughra remains",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Orgone",
+          "chance": "5/10"
+        },
+        {
+          "material": "Dragon metal",
+          "chance": "2/10"
+        },
+        {
+          "material": "Carbon black",
+          "chance": "1/10"
+        },
+        {
+          "material": "Compass rose",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Ancient magick munitions",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Blood of Orcus",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Moksha device",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Orgone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Carbon black",
+          "chance": "3/10"
+        },
+        {
+          "material": "Compass rose",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Bibliotheke debris",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "3/10"
+        },
+        {
+          "material": "White marble",
+          "chance": "3/10"
+        },
+        {
+          "material": "Star of Saradomin",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Chthonian trophies",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "3/10"
+        },
+        {
+          "material": "Chaotic brimstone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Demonhide",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Warforge weapon rack",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Fossilised bone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Malachite green",
+          "chance": "3/10"
+        },
+        {
+          "material": "Warforged bronze",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Flight research debris",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "3/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        },
+        {
+          "material": "Orthenglass",
+          "chance": "2/10"
+        },
+        {
+          "material": "Armadylean yellow",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Aetherium forge",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Wings of War",
+          "chance": "3/10"
+        },
+        {
+          "material": "Aetherium alloy",
+          "chance": "3/10"
+        },
+        {
+          "material": "Quintessence",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Xolo mine",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Goldrune",
+          "chance": "3/10"
+        },
+        {
+          "material": "Dragon metal",
+          "chance": "4/10"
+        },
+        {
+          "material": "Orgone",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Praetorian remains",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "2/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Zarosian insignia",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Bandos's sanctum debris",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Fossilised bone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Animal furs",
+          "chance": "2/10"
+        },
+        {
+          "material": "Vulcanised rubber",
+          "chance": "3/10"
+        },
+        {
+          "material": "Yu'biusk clay",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Tsutsaroth remains",
+      "site": "Zamorak",
+      "materials": [
+        {
+          "material": "Third Age iron",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Hellfire metal",
+          "chance": "3/10"
+        },
+        {
+          "material": "Eye of Dagon",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Optimatoi remains",
+      "site": "Saradomin",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "3/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "3/10"
+        },
+        {
+          "material": "Everlight silvthril",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "War table debris",
+      "site": "Zaros",
+      "materials": [
+        {
+          "material": "White oak",
+          "chance": "3/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Tyrian purple",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Howl's workshop debris",
+      "site": "Armadyl",
+      "materials": [
+        {
+          "material": "Aetherium alloy",
+          "chance": "3/10"
+        },
+        {
+          "material": "Soapstone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Quintessence",
+          "chance": "3/10"
+        },
+        {
+          "material": "Armadylean yellow",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Makeshift pie oven",
+      "site": "Bandos",
+      "materials": [
+        {
+          "material": "Soapstone",
+          "chance": "3/10"
+        },
+        {
+          "material": "Malachite green",
+          "chance": "3/10"
+        },
+        {
+          "material": "Yu'biusk clay",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Xolo remains",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Felt",
+          "chance": "2/10"
+        },
+        {
+          "material": "Orgone",
+          "chance": "4/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "Dragon metal",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Saurthen debris",
+      "site": "Dragonkin",
+      "materials": [
+        {
+          "material": "Dragon metal",
+          "chance": "4/10"
+        },
+        {
+          "material": "Orgone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "4/10"
+        }
+      ]
+    },
+    {
+      "name": "Ministry remains",
+      "site": "Senntisten",
+      "materials": [
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Soapstone",
+          "chance": "2/10"
+        },
+        {
+          "material": "Tyrian purple",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Cathedral debris",
+      "site": "Senntisten",
+      "materials": [
+        {
+          "material": "Samite silk",
+          "chance": "4/10"
+        },
+        {
+          "material": "Blood of Orcus",
+          "chance": "2/10"
+        },
+        {
+          "material": "Goldrune",
+          "chance": "2/10"
+        },
+        {
+          "material": "White oak",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Marketplace debris",
+      "site": "Senntisten",
+      "materials": [
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "3/10"
+        },
+        {
+          "material": "Vellum",
+          "chance": "2/10"
+        },
+        {
+          "material": "Tyrian purple",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Inquisitor remains",
+      "site": "Senntisten",
+      "materials": [
+        {
+          "material": "Blood of Orcus",
+          "chance": "3/10"
+        },
+        {
+          "material": "Zarosian insignia",
+          "chance": "2/10"
+        },
+        {
+          "material": "Samite silk",
+          "chance": "3/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "2/10"
+        }
+      ]
+    },
+    {
+      "name": "Gladiator remains",
+      "Site": "Senntisten",
+      "materials": [
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Blood of Orcus",
+          "chance": "2/10"
+        },
+        {
+          "material": "Leather scraps",
+          "chance": "3/10"
+        },
+        {
+          "material": "Ancient vis",
+          "chance": "3/10"
+        }
+      ]
+    },
+    {
+      "name": "Citizen remains",
+      "site": "Senntisten",
+      "materials": [
+        {
+          "material": "Vellum",
+          "chance": "3/10"
+        },
+        {
+          "material": "Tyrian purple",
+          "chance": "3/10"
+        },
+        {
+          "material": "Imperial steel",
+          "chance": "2/10"
+        },
+        {
+          "material": "Soapstone",
+          "chance": "2/10"
+        }
+      ]
+    }
+  ]
+}

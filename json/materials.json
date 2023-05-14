@@ -1,0 +1,292 @@
+{
+  "materials": [
+    {
+      "name": "Third Age iron",
+      "type": "Agnostic",
+      "cacheXP": 24.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Zarosian insignia",
+      "type": "Zaros",
+      "cacheXP": 24.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Imperial steel",
+      "type": "Zaros",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Samite silk",
+      "type": "Agnostic",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "White oak",
+      "type": "Agnostic",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Goldrune",
+      "type": "Agnostic",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Orthenglass",
+      "type": "Agnostic",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Vellum",
+      "type": "Agnostic",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Cadmium red",
+      "type": "Zamorak",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Ancient vis",
+      "type": "Zaros",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Tyrian purple",
+      "type": "Zaros",
+      "cacheXP": 24.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Leather scraps",
+      "type": "Agnostic",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Chaotic brimstone",
+      "type": "Zamorak",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Demonhide",
+      "type": "Zamorak",
+      "cacheXP": 24.2
+    },
+    {
+      "name": "Eye of Dagon",
+      "type": "Zamorak",
+      "cacheXP": 30.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Hellfire metal",
+      "type": "Zamorak",
+      "cacheXP": 30.2
+    },
+    {
+      "name": "Ruby",
+      "type": "Special"
+    },
+    {
+      "name": "White marble",
+      "type": "Saradomin",
+      "cacheXP": 30.2
+    },
+    {
+      "name": "Keramos",
+      "type": "Saradomin",
+      "cacheXP": 30.2
+    },
+    {
+      "name": "White candle",
+      "type": "Special"
+    },
+    {
+      "name": "Dragonstone",
+      "type": "Special"
+    },
+    {
+      "name": "Cobalt blue",
+      "type": "Saradomin",
+      "cacheXP": 30.2
+    },
+    {
+      "name": "Everlight silvthril",
+      "type": "Saradomin",
+      "cacheXP": 30.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Star of Saradomin",
+      "type": "Saradomin",
+      "cacheXP": 30.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Blood of Orcus",
+      "type": "Zaros",
+      "cacheXP": 30.2,
+      "cacheAsName": true
+    },
+    {
+      "name": "Bronze bar",
+      "type": "Special"
+    },
+    {
+      "name": "Silver bar",
+      "type": "Special"
+    },
+    {
+      "name": "Wings of War",
+      "type": "Armadyl",
+      "cacheXP": 56.4,
+      "cacheAsName": true
+    },
+    {
+      "name": "Stormguard steel",
+      "type": "Armadyl",
+      "cacheXP": 56.4,
+      "cacheAsName": true
+    },
+    {
+      "name": "Clockwork",
+      "type": "Special"
+    },
+    {
+      "name": "Sapphire",
+      "type": "Special"
+    },
+    {
+      "name": "Armadylean yellow",
+      "type": "Armadyl",
+      "cacheXP": 56.4,
+      "cacheAsName": true
+    },
+    {
+      "name": "Diamond",
+      "type": "Special"
+    },
+    {
+      "name": "Animal furs",
+      "type": "Agnostic",
+      "cacheXP": 56.4
+    },
+    {
+      "name": "Vulcanised rubber",
+      "type": "Bandos",
+      "cacheXP": 56.4
+    },
+    {
+      "name": "Malachite green",
+      "type": "Bandos",
+      "cacheXP": 56.4
+    },
+    {
+      "name": "Mark of the Kyzaj",
+      "type": "Bandos",
+      "cacheXP": 56.4,
+      "cacheAsName": true
+    },
+    {
+      "name": "Warforged bronze",
+      "type": "Bandos",
+      "cacheXP": 56.4
+    },
+    {
+      "name": "Phoenix feather",
+      "type": "Special"
+    },
+    {
+      "name": "Fossilised bone",
+      "type": "Agnostic",
+      "cacheXP": 56.4
+    },
+    {
+      "name": "Yu'biusk clay",
+      "type": "Bandos",
+      "cacheXP": 56.4,
+      "cacheAsName": true
+    },
+    {
+      "name": "Weapon poison (3)",
+      "type": "Special"
+    },
+    {
+      "name": "Aetherium alloy",
+      "type": "Armadyl",
+      "cacheXP": 56.4
+    },
+    {
+      "name": "Compass rose",
+      "type": "Dragonkin",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Felt",
+      "type": "Dragonkin",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Dragon metal",
+      "type": "Dragonkin",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Carbon black",
+      "type": "Dragonkin",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Orgone",
+      "type": "Dragonkin",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Rope",
+      "type": "Special"
+    },
+    {
+      "name": "Quintessence",
+      "type": "Armadyl",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Soapstone",
+      "type": "Agnostic",
+      "cacheXP": 92.7
+    },
+    {
+      "name": "Black mushroom ink",
+      "type": "Special"
+    },
+    {
+      "name": "Emerald",
+      "type": "Special"
+    },
+    {
+      "name": "Molten glass",
+      "type": "Special"
+    },
+    {
+      "name": "Death rune",
+      "type": "Special"
+    },
+    {
+      "name": "Tetracompass piece (dial)",
+      "type": "Special"
+    },
+    {
+      "name": "Tetracompass piece (left)",
+      "type": "Special"
+    },
+    {
+      "name": "Tetracompass piece (right)",
+      "type": "Special"
+    },
+    {
+      "name": "Tetracompass piece (needle)",
+      "type": "Special"
+    }
+  ]
+}
