@@ -1,7 +1,10 @@
 package core
 
+import com.google.gson.Gson
+import com.google.gson.annotations.SerializedName
 import load.jsonArtefacts
 import load.jsonHotspots
+import java.io.File
 
 data class HotspotMaterialInfo(
   val materialName: String,
@@ -11,7 +14,7 @@ data class HotspotMaterialInfo(
 data class Hotspot(
   val name: String,
   val level: Int,
-  val digSite: DigSite,
+  val digSiteName: String,
   val materials: MutableList<HotspotMaterialInfo>
 )
 
@@ -21,12 +24,12 @@ data class DigSite(
 )
 
 class DigSites(
-  val sites: MutableList<DigSite> = mutableListOf()
+  @SerializedName("sites") val sites: MutableList<DigSite> = mutableListOf()
 ) {
   fun getSiteByName(name: String) = sites.first { it.name == name }
 }
 
-private val sites = DigSites()
+var sites = DigSites()
 
 fun getDigSites(): DigSites {
   if (sites.sites.isEmpty()) {
@@ -48,7 +51,7 @@ fun getDigSites(): DigSites {
         Hotspot(
           name = currHostspot.name,
           level = currHostspot.level,
-          digSite = s,
+          digSiteName = s.name,
           materials = nextHotspotMaterialsInfos.toMutableList()
         )
       }
@@ -58,4 +61,11 @@ fun getDigSites(): DigSites {
   }
 
   return sites
+}
+
+fun generateFinalArqueologyJsonDataFile() {
+  val g = Gson()
+  val res = Gson().toJson(getDigSites())
+  val finalArqueologyData = File("json/final_arqueology_data.json")
+  finalArqueologyData.writeText(res)
 }

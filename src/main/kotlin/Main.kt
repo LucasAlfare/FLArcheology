@@ -1,12 +1,20 @@
-import core.Hotspot
+import com.google.gson.Gson
+import core.DigSites
+import core.generateFinalArqueologyJsonDataFile
 import core.getDigSites
+import core.sites
+import java.io.File
 
 fun main() {
-  val result = mutableListOf<Hotspot>()
-
-  getDigSites().sites.forEach {
-    result.addAll(it.hotspots.filter { h -> h.level <= 88 })
+  sites = Gson().fromJson(File("json/final_arqueology_data.json").readText(), DigSites::class.java)
+  val res = sites
+  res.sites.forEach {
+    it.hotspots.forEach { h ->
+      h.materials.forEach { m ->
+        if (m.materialName == "White marble") {
+          println("White marble can be found in ${h.name}, that exists in ${it.name}. You need  level ${h.level} to dig it.")
+        }
+      }
+    }
   }
-
-  println(result.count { it.digSite.name == "Bandos" })
 }
