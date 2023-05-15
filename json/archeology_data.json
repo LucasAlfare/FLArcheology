@@ -8,11 +8,11 @@
           "level": 5,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "5/10"
             },
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "5/10"
             }
           ],
@@ -57,15 +57,15 @@
           "level": 12,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "3/10"
             },
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "3/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "4/10"
             }
           ],
@@ -134,19 +134,19 @@
           "level": 17,
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "4/10"
             },
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "2/10"
             }
           ],
@@ -194,19 +194,19 @@
           "level": 25,
           "materials": [
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Tyrian purple",
+              "name": "Tyrian purple",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "2/10"
             }
           ],
@@ -258,19 +258,19 @@
           "level": 47,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "3/10"
             }
           ],
@@ -326,19 +326,19 @@
           "level": 58,
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "3/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             }
           ],
@@ -394,19 +394,19 @@
           "level": 74,
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "3/10"
             },
             {
-              "materialName": "Tyrian purple",
+              "name": "Tyrian purple",
               "chance": "3/10"
             }
           ],
@@ -482,19 +482,19 @@
           "level": 81,
           "materials": [
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "3/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             }
           ],
@@ -570,19 +570,19 @@
           "level": 86,
           "materials": [
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "3/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "3/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "2/10"
             }
           ],
@@ -628,111 +628,385 @@
         {
           "name": "Armarium debris",
           "level": 93,
-          "digSiteName": "Zaros",
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "4/10"
             },
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "4/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Zarosian ewer",
+              "xp": 12500,
+              "level": 93,
+              "chronotes": 760,
+              "materials": [
+                {
+                  "name": "Third Age iron",
+                  "quantity": 52
+                },
+                {
+                  "name": "Zarosian insignia",
+                  "quantity": 30
+                }
+              ]
+            },
+            {
+              "name": "Zarosian stein",
+              "xp": 12500,
+              "level": 93,
+              "chronotes": 760,
+              "materials": [
+                {
+                  "name": "Third Age iron",
+                  "quantity": 16
+                },
+                {
+                  "name": "Zarosian insignia",
+                  "quantity": 30
+                },
+                {
+                  "name": "Imperial steel",
+                  "quantity": 36
+                }
+              ]
             }
           ]
         },
         {
           "name": "Culinarum debris",
           "level": 100,
-          "digSiteName": "Zaros",
           "materials": [
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "3/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "'Smoke Cloud' spell scroll",
+              "xp": 18666.7,
+              "level": 100,
+              "chronotes": 844,
+              "materials": [
+                {
+                  "name": "Vellum",
+                  "quantity": 40
+                },
+                {
+                  "name": "Ancient vis",
+                  "quantity": 20
+                },
+                {
+                  "name": "Blood of Orcus",
+                  "quantity": 32
+                }
+              ]
+            },
+            {
+              "name": "Vigorem vial",
+              "xp": 18666.7,
+              "level": 100,
+              "chronotes": 844,
+              "materials": [
+                {
+                  "name": "Imperial steel",
+                  "quantity": 54
+                },
+                {
+                  "name": "Ancient vis",
+                  "quantity": 38
+                },
+                {
+                  "name": "Molten glass",
+                  "quantity": 1
+                }
+              ]
             }
           ]
         },
         {
           "name": "Ancient magick munitions",
           "level": 107,
-          "digSiteName": "Zaros",
           "materials": [
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Ancient magic tablet",
+              "xp": 27000,
+              "level": 107,
+              "chronotes": 942,
+              "materials": [
+                {
+                  "name": "Ancient vis",
+                  "quantity": 40
+                },
+                {
+                  "name": "Blood of Orcus",
+                  "quantity": 64
+                }
+              ]
+            },
+            {
+              "name": "Portable phylactery",
+              "xp": 27000,
+              "level": 107,
+              "chronotes": 942,
+              "materials": [
+                {
+                  "name": "Ancient vis",
+                  "quantity": 20
+                },
+                {
+                  "name": "Blood of Orcus",
+                  "quantity": 36
+                },
+                {
+                  "name": "Imperial steel",
+                  "quantity": 48
+                }
+              ]
+            },
+            {
+              "name": "'Animate Dead' spell scroll",
+              "xp": 27000,
+              "level": 107,
+              "chronotes": 942,
+              "materials": [
+                {
+                  "name": "Ancient vis",
+                  "quantity": 24
+                },
+                {
+                  "name": "Blood of Orcus",
+                  "quantity": 40
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 40
+                }
+              ]
             }
           ]
         },
         {
           "name": "Praetorian remains",
           "level": 114,
-          "digSiteName": "Zaros",
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "3/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Praetorian hood",
+              "xp": 36666.7,
+              "level": 114,
+              "chronotes": 1096,
+              "materials": [
+                {
+                  "name": "Ancient vis",
+                  "quantity": 36
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 48
+                },
+                {
+                  "name": "Zarosian insignia",
+                  "quantity": 40
+                },
+                {
+                  "name": "Death rune",
+                  "quantity": 30
+                }
+              ]
+            },
+            {
+              "name": "Praetorian robes",
+              "xp": 36666.7,
+              "level": 114,
+              "chronotes": 1096,
+              "materials": [
+                {
+                  "name": "Ancient vis",
+                  "quantity": 30
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 54
+                },
+                {
+                  "name": "Zarosian insignia",
+                  "quantity": 40
+                },
+                {
+                  "name": "Death rune",
+                  "quantity": 50
+                }
+              ]
+            },
+            {
+              "name": "Praetorian staff",
+              "xp": 36666.7,
+              "site": "Zaros",
+              "level": 114,
+              "chronotes": 1096,
+              "materials": [
+                {
+                  "name": "Ancient vis",
+                  "quantity": 59
+                },
+                {
+                  "name": "Imperial steel",
+                  "quantity": 36
+                },
+                {
+                  "name": "Zarosian insignia",
+                  "quantity": 30
+                },
+                {
+                  "name": "Death rune",
+                  "quantity": 100
+                }
+              ]
             }
           ]
         },
         {
           "name": "War table debris",
           "level": 118,
-          "digSiteName": "Zaros",
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "3/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Tyrian purple",
+              "name": "Tyrian purple",
               "chance": "3/10"
             },
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Ancient globe",
+              "xp": 43333.3,
+              "level": 118,
+              "chronotes": 1174,
+              "materials": [
+                {
+                  "name": "White oak",
+                  "quantity": 20
+                },
+                {
+                  "name": "Tyrian purple",
+                  "quantity": 54
+                },
+                {
+                  "name": "Ancient vis",
+                  "quantity": 60
+                }
+              ]
+            },
+            {
+              "name": "Battle plans",
+              "xp": 43333.3,
+              "level": 118,
+              "chronotes": 1174,
+              "materials": [
+                {
+                  "name": "Vellum",
+                  "quantity": 40
+                },
+                {
+                  "name": "Tyrian purple",
+                  "quantity": 60
+                },
+                {
+                  "name": "Ancient vis",
+                  "quantity": 34
+                }
+              ]
+            },
+            {
+              "name": "'Prima Legio' painting",
+              "xp": 43333.3,
+              "level": 118,
+              "chronotes": 1174,
+              "materials": [
+                {
+                  "name": "White oak",
+                  "quantity": 20
+                },
+                {
+                  "name": "Tyrian purple",
+                  "quantity": 74
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 20
+                },
+                {
+                  "name": "Zarosian insignia",
+                  "quantity": 20
+                }
+              ]
             }
           ]
         }
@@ -746,15 +1020,15 @@
           "level": 20,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "4/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "3/10"
             }
           ],
@@ -803,19 +1077,19 @@
           "digSiteName": "Zamorak",
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Cadmium red",
+              "name": "Cadmium red",
               "chance": "4/10"
             }
           ],
@@ -867,19 +1141,19 @@
           "level": 29,
           "materials": [
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             },
             {
-              "materialName": "Chaotic brimstone",
+              "name": "Chaotic brimstone",
               "chance": "3/10"
             },
             {
-              "materialName": "Demonhide",
+              "name": "Demonhide",
               "chance": "3/10"
             },
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             }
           ],
@@ -959,19 +1233,19 @@
           "level": 36,
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Cadmium red",
+              "name": "Cadmium red",
               "chance": "2/10"
             },
             {
-              "materialName": "Eye of Dagon",
+              "name": "Eye of Dagon",
               "chance": "3/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "3/10"
             }
           ],
@@ -1023,19 +1297,19 @@
           "level": 45,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "3/10"
             },
             {
-              "materialName": "Chaotic brimstone",
+              "name": "Chaotic brimstone",
               "chance": "2/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "2/10"
             },
             {
-              "materialName": "Eye of Dagon",
+              "name": "Eye of Dagon",
               "chance": "3/10"
             }
           ],
@@ -1087,19 +1361,19 @@
           "level": 65,
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Cadmium red",
+              "name": "Cadmium red",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "3/10"
             }
           ],
@@ -1159,19 +1433,19 @@
           "level": 68,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             },
             {
-              "materialName": "Chaotic brimstone",
+              "name": "Chaotic brimstone",
               "chance": "3/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "3/10"
             }
           ],
@@ -1219,19 +1493,19 @@
           "level": 81,
           "materials": [
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Animal furs",
+              "name": "Animal furs",
               "chance": "3/10"
             },
             {
-              "materialName": "Cadmium red",
+              "name": "Cadmium red",
               "chance": "3/10"
             },
             {
-              "materialName": "Chaotic brimstone",
+              "name": "Chaotic brimstone",
               "chance": "2/10"
             }
           ],
@@ -1301,115 +1575,380 @@
         {
           "name": "Dis overspill",
           "level": 89,
-          "digSiteName": "Zamorak",
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Cadmium red",
+              "name": "Cadmium red",
               "chance": "2/10"
             },
             {
-              "materialName": "Eye of Dagon",
+              "name": "Eye of Dagon",
               "chance": "3/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "'Pandemonium' tapestry",
+              "xp": 10500.0,
+              "level": 89,
+              "chronotes": 724,
+              "materials": [
+                {
+                  "name": "White oak",
+                  "quantity": 12
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 12
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 12
+                },
+                {
+                  "name": "Cadmium red",
+                  "quantity": 42
+                }
+              ]
+            },
+            {
+              "name": "'Torment' metal sculpture",
+              "xp": 10500.0,
+              "level": 89,
+              "chronotes": 724,
+              "materials": [
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 20
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 20
+                },
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 38
+                }
+              ]
             }
           ]
         },
         {
           "name": "Byzroth remains",
           "level": 98,
-          "digSiteName": "Zamorak",
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "3/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Hellfire haladie",
+              "xp": 16666.7,
+              "level": 98,
+              "chronotes": 826,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 44
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 26
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 20
+                }
+              ]
+            },
+            {
+              "name": "Hellfire katar",
+              "xp": 16666.7,
+              "level": 98,
+              "chronotes": 826,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 50
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 40
+                }
+              ]
+            },
+            {
+              "name": "Hellfire zaghnal",
+              "xp": 16666.7,
+              "level": 98,
+              "chronotes": 826,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 38
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 26
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 26
+                }
+              ]
             }
           ]
         },
         {
           "name": "Hellfire forge",
           "level": 104,
-          "digSiteName": "Zamorak",
           "materials": [
             {
-              "materialName": "Cadmium red",
+              "name": "Cadmium red",
               "chance": "2/10"
             },
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Eye of Dagon",
+              "name": "Eye of Dagon",
               "chance": "3/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "'Possession' metal sculpture",
+              "xp": 23333.3,
+              "level": 104,
+              "chronotes": 894,
+              "materials": [
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 24
+                },
+                {
+                  "name": "Chaotic brimstone",
+                  "quantity": 30
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 44
+                }
+              ]
+            },
+            {
+              "name": "Trishula",
+              "xp": 23333.3,
+              "level": 104,
+              "chronotes": 894,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 48
+                },
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 30
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 20
+                }
+              ]
+            },
+            {
+              "name": "Tsutsaroth piercing",
+              "xp": 23333.3,
+              "level": 104,
+              "chronotes": 894,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 44
+                },
+                {
+                  "name": "Chaotic brimstone",
+                  "quantity": 30
+                },
+                {
+                  "name": "Cadmium red",
+                  "quantity": 24
+                }
+              ]
             }
           ]
         },
         {
           "name": "Chthonian trophies",
           "level": 110,
-          "digSiteName": "Zamorak",
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "3/10"
             },
             {
-              "materialName": "Chaotic brimstone",
+              "name": "Chaotic brimstone",
               "chance": "2/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Demonhide",
+              "name": "Demonhide",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Chaos Elemental trophy",
+              "xp": 31000,
+              "level": 110,
+              "chronotes": 1004,
+              "materials": [
+                {
+                  "name": "Chaotic brimstone",
+                  "quantity": 52
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 30
+                },
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 30
+                }
+              ]
+            },
+            {
+              "name": "Virius trophy",
+              "xp": 31000,
+              "level": 110,
+              "chronotes": 1004,
+              "materials": [
+                {
+                  "name": "Demonhide",
+                  "quantity": 44
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 34
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 34
+                }
+              ]
             }
           ]
         },
         {
           "name": "Tsutsaroth remains",
           "level": 116,
-          "digSiteName": "Zamorak",
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Hellfire metal",
+              "name": "Hellfire metal",
               "chance": "3/10"
             },
             {
-              "materialName": "Eye of Dagon",
+              "name": "Eye of Dagon",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Tsutsaroth helm",
+              "xp": 40000,
+              "level": 116,
+              "chronotes": 1142,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 50
+                },
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 40
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 40
+                }
+              ]
+            },
+            {
+              "name": "Tsutsaroth pauldron",
+              "xp": 40000,
+              "level": 116,
+              "chronotes": 1142,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 40
+                },
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 40
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 50
+                }
+              ]
+            },
+            {
+              "name": "Tsutsaroth urumi",
+              "xp": 40000,
+              "level": 116,
+              "chronotes": 1142,
+              "materials": [
+                {
+                  "name": "Hellfire metal",
+                  "quantity": 50
+                },
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 40
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 40
+                }
+              ]
             }
           ]
         }
@@ -1423,15 +1962,15 @@
           "level": 42,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "4/10"
             },
             {
-              "materialName": "Keramos",
+              "name": "Keramos",
               "chance": "3/10"
             },
             {
-              "materialName": "White marble",
+              "name": "White marble",
               "chance": "3/10"
             }
           ],
@@ -1479,15 +2018,15 @@
           "level": 48,
           "materials": [
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "3/10"
             },
             {
-              "materialName": "Cobalt blue",
+              "name": "Cobalt blue",
               "chance": "4/10"
             },
             {
-              "materialName": "Keramos",
+              "name": "Keramos",
               "chance": "3/10"
             }
           ],
@@ -1531,19 +2070,19 @@
           "level": 51,
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "3/10"
             },
             {
-              "materialName": "Star of Saradomin",
+              "name": "Star of Saradomin",
               "chance": "3/10"
             }
           ],
@@ -1607,11 +2146,11 @@
           "level": 56,
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "5/10"
             },
             {
-              "materialName": "White marble",
+              "name": "White marble",
               "chance": "5/10"
             }
           ],
@@ -1655,19 +2194,19 @@
           "level": 61,
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Star of Saradomin",
+              "name": "Star of Saradomin",
               "chance": "3/10"
             },
             {
-              "materialName": "Keramos",
+              "name": "Keramos",
               "chance": "3/10"
             }
           ],
@@ -1727,19 +2266,19 @@
           "level": 69,
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "3/10"
             },
             {
-              "materialName": "Star of Saradomin",
+              "name": "Star of Saradomin",
               "chance": "3/10"
             }
           ],
@@ -1815,19 +2354,19 @@
           "level": 72,
           "materials": [
             {
-              "materialName": "Keramos",
+              "name": "Keramos",
               "chance": "2/10"
             },
             {
-              "materialName": "White marble",
+              "name": "White marble",
               "chance": "2/10"
             },
             {
-              "materialName": "Cobalt blue",
+              "name": "Cobalt blue",
               "chance": "3/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "3/10"
             }
           ],
@@ -1895,19 +2434,19 @@
           "level": 84,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "3/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "2/10"
             },
             {
-              "materialName": "Star of Saradomin",
+              "name": "Star of Saradomin",
               "chance": "2/10"
             }
           ],
@@ -1961,103 +2500,332 @@
         {
           "name": "Acropolis debris",
           "level": 92,
-          "digSiteName": "Saradomin",
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Keramos",
+              "name": "Keramos",
               "chance": "3/10"
             },
             {
-              "materialName": "White marble",
+              "name": "White marble",
               "chance": "3/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Amphora",
+              "xp": 11666.7,
+              "level": 92,
+              "chronotes": 744,
+              "materials": [
+                {
+                  "name": "Everlight silvthril",
+                  "quantity": 34
+                },
+                {
+                  "name": "Keramos",
+                  "quantity": 46
+                }
+              ]
+            },
+            {
+              "name": "Rod of Asclepius",
+              "xp": 11666.7,
+              "level": 92,
+              "chronotes": 744,
+              "materials": [
+                {
+                  "name": "White marble",
+                  "quantity": 30
+                },
+                {
+                  "name": "Star of Saradomin",
+                  "quantity": 24
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 26
+                }
+              ]
             }
           ]
         },
         {
           "name": "Icyene weapon rack",
           "level": 100,
-          "digSiteName": "Saradomin",
           "materials": [
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "5/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "5/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Kopis dagger",
+              "xp": 18666.7,
+              "level": 100,
+              "chronotes": 844,
+              "materials": [
+                {
+                  "name": "Everlight silvthril",
+                  "quantity": 50
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 42
+                }
+              ]
+            },
+            {
+              "name": "Xiphos short sword",
+              "xp": 18666.7,
+              "level": 100,
+              "chronotes": 844,
+              "materials": [
+                {
+                  "name": "Everlight silvthril",
+                  "quantity": 46
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 46
+                }
+              ]
             }
           ]
         },
         {
           "name": "Stockpiled art",
           "level": 105,
-          "digSiteName": "Saradomin",
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Cobalt blue",
+              "name": "Cobalt blue",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "'The Pride of Padosan' painting",
+              "xp": 24500,
+              "site": "Saradomin",
+              "level": 105,
+              "chronotes": 910,
+              "materials": [
+                {
+                  "name": "Cobalt blue",
+                  "quantity": 52
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 16
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 16
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 16
+                }
+              ]
+            },
+            {
+              "name": "'Hallowed Be the Everlight' painting",
+              "xp": 24500,
+              "level": 105,
+              "chronotes": 910,
+              "materials": [
+                {
+                  "name": "Cobalt blue",
+                  "quantity": 52
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 16
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 16
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 16
+                }
+              ]
+            },
+            {
+              "name": "'The Lord of Light' painting",
+              "xp": 24500,
+              "level": 105,
+              "chronotes": 910,
+              "materials": [
+                {
+                  "name": "Cobalt blue",
+                  "quantity": 52
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 16
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 16
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 16
+                }
+              ]
             }
           ]
         },
         {
           "name": "Bibliotheke debris",
           "level": 109,
-          "digSiteName": "Saradomin",
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "3/10"
             },
             {
-              "materialName": "White marble",
+              "name": "White marble",
               "chance": "3/10"
             },
             {
-              "materialName": "Star of Saradomin",
+              "name": "Star of Saradomin",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "'The Enlightened Soul' scroll",
+              "xp": 29666.7,
+              "level": 109,
+              "chronotes": 988,
+              "materials": [
+                {
+                  "name": "Star of Saradomin",
+                  "quantity": 50
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 60
+                }
+              ]
+            },
+            {
+              "name": "'The Eudoxian Elements' tablet",
+              "xp": 29666.7,
+              "site": "Saradomin",
+              "level": 109,
+              "chronotes": 988,
+              "materials": [
+                {
+                  "name": "White marble",
+                  "quantity": 60
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 50
+                }
+              ]
             }
           ]
         },
         {
           "name": "Optimatoi remains",
           "level": 117,
-          "digSiteName": "Saradomin",
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "3/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "3/10"
             },
             {
-              "materialName": "Everlight silvthril",
+              "name": "Everlight silvthril",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Kontos lance",
+              "xp": 41666.7,
+              "level": 117,
+              "chronotes": 1158,
+              "materials": [
+                {
+                  "name": "Everlight silvthril",
+                  "quantity": 70
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 62
+                }
+              ],
+              "artefacts": [
+                {
+                  "name": "Kontos lance",
+                  "xp": 41666.7,
+                  "level": 117,
+                  "chronotes": 1158,
+                  "materials": [
+                    {
+                      "name": "Everlight silvthril",
+                      "quantity": 70
+                    },
+                    {
+                      "name": "Samite silk",
+                      "quantity": 62
+                    }
+                  ]
+                },
+                {
+                  "name": "Doru spear",
+                  "xp": 41666.7,
+                  "level": 117,
+                  "chronotes": 1158,
+                  "materials": [
+                    {
+                      "name": "Everlight silvthril",
+                      "quantity": 70
+                    },
+                    {
+                      "name": "White oak",
+                      "quantity": 62
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -2075,19 +2843,19 @@
           "level": 60,
           "materials": [
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Soapstone",
+              "name": "Soapstone",
               "chance": "2/10"
             },
             {
-              "materialName": "Tyrian purple",
+              "name": "Tyrian purple",
               "chance": "3/10"
             }
           ],
@@ -2163,19 +2931,19 @@
           "level": 62,
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "4/10"
             },
             {
-              "materialName": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             }
           ],
@@ -2256,19 +3024,19 @@
           "level": 63,
           "materials": [
             {
-              "materialName": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "3/10"
             },
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Tyrian purple",
+              "name": "Tyrian purple",
               "chance": "2/10"
             }
           ],
@@ -2341,19 +3109,19 @@
           "level": 64,
           "materials": [
             {
-              "materialName": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "3/10"
             },
             {
-              "materialName": "Zarosian insignia",
+              "name": "Zarosian insignia",
               "chance": "2/10"
             },
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "3/10"
             },
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             }
           ],
@@ -2433,19 +3201,19 @@
           "level": 67,
           "materials": [
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "3/10"
             },
             {
-              "materialName": "Tyrian purple",
+              "name": "Tyrian purple",
               "chance": "3/10"
             },
             {
-              "materialName": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Soapstone",
+              "name": "Soapstone",
               "chance": "2/10"
             }
           ],
@@ -2525,19 +3293,19 @@
           "level": 66,
           "materials": [
             {
-              "material": "Imperial steel",
+              "name": "Imperial steel",
               "chance": "2/10"
             },
             {
-              "material": "Blood of Orcus",
+              "name": "Blood of Orcus",
               "chance": "2/10"
             },
             {
-              "material": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "3/10"
             },
             {
-              "material": "Ancient vis",
+              "name": "Ancient vis",
               "chance": "3/10"
             }
           ],
@@ -2614,19 +3382,19 @@
           "level": 70,
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "3/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "3/10"
             },
             {
-              "materialName": "Stormguard steel",
+              "name": "Stormguard steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Wings of War",
+              "name": "Wings of War",
               "chance": "2/10"
             }
           ],
@@ -2690,19 +3458,19 @@
           "level": 76,
           "materials": [
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             },
             {
-              "materialName": "Animal furs",
+              "name": "Animal furs",
               "chance": "2/10"
             },
             {
-              "materialName": "Armadylean yellow",
+              "name": "Armadylean yellow",
               "chance": "3/10"
             },
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "3/10"
             }
           ],
@@ -2774,19 +3542,19 @@
           "level": 81,
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "3/10"
             },
             {
-              "materialName": "Armadylean yellow",
+              "name": "Armadylean yellow",
               "chance": "3/10"
             },
             {
-              "materialName": "Animal furs",
+              "name": "Animal furs",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             }
           ],
@@ -2858,19 +3626,19 @@
           "level": 85,
           "materials": [
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Wings of War",
+              "name": "Wings of War",
               "chance": "2/10"
             },
             {
-              "materialName": "Stormguard steel",
+              "name": "Stormguard steel",
               "chance": "3/10"
             },
             {
-              "materialName": "Aetherium alloy",
+              "name": "Aetherium alloy",
               "chance": "3/10"
             }
           ],
@@ -2916,136 +3684,336 @@
         {
           "name": "Gravitron research debris",
           "level": 91,
-          "digSiteName": "Armadyl",
           "materials": [
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Stormguard steel",
+              "name": "Stormguard steel",
               "chance": "3/10"
             },
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             },
             {
-              "materialName": "Quintessence",
+              "name": "Quintessence",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Prototype gravimeter",
+              "xp": 11277.8,
+              "level": 91,
+              "chronotes": 742,
+              "materials": [
+                {
+                  "name": "Quintessence",
+                  "quantity": 34
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 20
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 26
+                }
+              ]
+            },
+            {
+              "name": "Songbird recorder",
+              "xp": 11277.8,
+              "level": 91,
+              "chronotes": 742,
+              "materials": [
+                {
+                  "name": "Stormguard steel",
+                  "quantity": 44
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 36
+                },
+                {
+                  "name": "Diamond",
+                  "quantity": 1
+                }
+              ]
             }
           ]
         },
         {
           "name": "Keshik tower debris",
           "level": 95,
-          "digSiteName": "Armadyl",
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Stormguard steel",
+              "name": "Stormguard steel",
               "chance": "3/10"
             },
             {
-              "materialName": "Wings of War",
+              "name": "Wings of War",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Stormguard gerege",
+              "xp": 14166.7,
+              "level": 95,
+              "chronotes": 778,
+              "materials": [
+                {
+                  "name": "Stormguard steel",
+                  "quantity": 36
+                },
+                {
+                  "name": "Wings of War",
+                  "quantity": 28
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 20
+                }
+              ]
+            },
+            {
+              "name": "Dayguard shield",
+              "xp": 14166.7,
+              "level": 95,
+              "chronotes": 778,
+              "materials": [
+                {
+                  "name": "Stormguard steel",
+                  "quantity": 36
+                },
+                {
+                  "name": "Wings of War",
+                  "quantity": 28
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 20
+                }
+              ]
             }
           ]
         },
         {
           "name": "Destroyed golem",
           "level": 98,
-          "digSiteName": "Armadyl",
           "materials": [
             {
-              "materialName": "Vellum",
+              "name": "Vellum",
               "chance": "2/10"
             },
             {
-              "materialName": "Soapstone",
+              "name": "Soapstone",
               "chance": "2/10"
             },
             {
-              "materialName": "Aetherium alloy",
+              "name": "Aetherium alloy",
               "chance": "3/10"
             },
             {
-              "materialName": "Quintessence",
+              "name": "Quintessence",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Golem heart",
+              "xp": 16666.7,
+              "level": 98,
+              "chronotes": 826,
+              "materials": [
+                {
+                  "name": "Aetherium alloy",
+                  "quantity": 34
+                },
+                {
+                  "name": "Quintessence",
+                  "quantity": 24
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 16
+                },
+                {
+                  "name": "Soapstone",
+                  "quantity": 16
+                }
+              ]
+            },
+            {
+              "name": "Golem instructions",
+              "xp": 16666.7,
+              "level": 98,
+              "chronotes": 826,
+              "materials": [
+                {
+                  "name": "Quintessence",
+                  "quantity": 46
+                },
+                {
+                  "name": "Vellum",
+                  "quantity": 44
+                },
+                {
+                  "name": "Black mushroom ink",
+                  "quantity": 1
+                }
+              ]
             }
           ]
         },
         {
           "name": "Keshik weapon rack",
           "level": 103,
-          "digSiteName": "Armadyl",
           "materials": [
             {
-              "materialName": "Stormguard steel",
+              "name": "Stormguard steel",
               "chance": "2/10"
             },
             {
-              "materialName": "Wings of War",
+              "name": "Wings of War",
               "chance": "2/10"
             },
             {
-              "materialName": "Aetherium alloy",
+              "name": "Aetherium alloy",
               "chance": "3/10"
             },
             {
-              "materialName": "Quintessence",
+              "name": "Quintessence",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Blackfire lance",
+              "xp": 22166.7,
+              "level": 103,
+              "chronotes": 878,
+              "materials": [
+                {
+                  "name": "Aetherium alloy",
+                  "quantity": 50
+                },
+                {
+                  "name": "Quintessence",
+                  "quantity": 46
+                }
+              ]
+            },
+            {
+              "name": "Nightguard shield",
+              "xp": 22166.7,
+              "level": 103,
+              "chronotes": 878,
+              "materials": [
+                {
+                  "name": "Stormguard steel",
+                  "quantity": 30
+                },
+                {
+                  "name": "Wings of War",
+                  "quantity": 36
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 30
+                }
+              ]
             }
           ]
         },
         {
           "name": "Flight research debris",
           "level": 111,
-          "digSiteName": "Armadyl",
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "3/10"
             },
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2/10"
             },
             {
-              "materialName": "Armadylean yellow",
+              "name": "Armadylean yellow",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Flat cap",
+              "xp": 32333.3,
+              "level": 111,
+              "chronotes": 1004,
+              "materials": [
+                {
+                  "name": "Armadylean yellow",
+                  "quantity": 60
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 54
+                }
+              ]
+            },
+            {
+              "name": "Night owl flight goggles",
+              "xp": 32333.3,
+              "level": 111,
+              "chronotes": 1004,
+              "materials": [
+                {
+                  "name": "Armadylean yellow",
+                  "quantity": 44
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 40
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 30
+                }
+              ]
             }
           ]
         },
         {
           "name": "Aetherium forge",
-          "level": 112,
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Wings of War",
+              "name": "Wings of War",
               "chance": "3/10"
             },
             {
-              "materialName": "Aetherium alloy",
+              "name": "Aetherium alloy",
               "chance": "3/10"
             },
             {
-              "materialName": "Quintessence",
+              "name": "Quintessence",
               "chance": "2/10"
             }
           ],
@@ -3069,29 +4037,134 @@
                   "quantity": 34
                 }
               ]
+            },
+            {
+              "name": "Prototype godbow",
+              "xp": 33666.7,
+              "level": 112,
+              "chronotes": 1050,
+              "materials": [
+                {
+                  "name": "Aetherium alloy",
+                  "quantity": 50
+                },
+                {
+                  "name": "Quintessence",
+                  "quantity": 34
+                },
+                {
+                  "name": "Wings of War",
+                  "quantity": 34
+                }
+              ]
+            },
+            {
+              "name": "Prototype godstaff",
+              "xp": 33666.7,
+              "level": 112,
+              "chronotes": 1050,
+              "materials": [
+                {
+                  "name": "Aetherium alloy",
+                  "quantity": 50
+                },
+                {
+                  "name": "Quintessence",
+                  "quantity": 34
+                },
+                {
+                  "name": "Wings of War",
+                  "quantity": 34
+                }
+              ]
             }
           ]
         },
         {
-          "name": "Howl\u0027s workshop debris",
+          "name": "Howl's workshop debris",
           "level": 118,
-          "digSiteName": "Armadyl",
           "materials": [
             {
-              "materialName": "Aetherium alloy",
+              "name": "Aetherium alloy",
               "chance": "3/10"
             },
             {
-              "materialName": "Soapstone",
+              "name": "Soapstone",
               "chance": "2/10"
             },
             {
-              "materialName": "Quintessence",
+              "name": "Quintessence",
               "chance": "3/10"
             },
             {
-              "materialName": "Armadylean yellow",
+              "name": "Armadylean yellow",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Chuluu stone",
+              "xp": 43333.3,
+              "level": 118,
+              "chronotes": 1174,
+              "materials": [
+                {
+                  "name": "Aetherium alloy",
+                  "quantity": 40
+                },
+                {
+                  "name": "Quintessence",
+                  "quantity": 30
+                },
+                {
+                  "name": "Soapstone",
+                  "quantity": 40
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 24
+                }
+              ]
+            },
+            {
+              "name": "Quintessence counter",
+              "xp": 43333.3,
+              "level": 118,
+              "chronotes": 1174,
+              "materials": [
+                {
+                  "name": "Stormguard steel",
+                  "quantity": 40
+                },
+                {
+                  "name": "Quintessence",
+                  "quantity": 54
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 40
+                }
+              ]
+            },
+            {
+              "name": "Spherical astrolabe",
+              "xp": 43333.3,
+              "level": 118,
+              "chronotes": 1174,
+              "materials": [
+                {
+                  "name": "Aetherium alloy",
+                  "quantity": 46
+                },
+                {
+                  "name": "Armadylean yellow",
+                  "quantity": 40
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 48
+                }
+              ]
             }
           ]
         }
@@ -3103,61 +4176,184 @@
         {
           "name": "Varanusaur remains",
           "level": 90,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Compass rose",
+              "name": "Compass rose",
               "chance": "3/10"
             },
             {
-              "materialName": "Felt",
+              "name": "Felt",
               "chance": "3/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Pasaha",
+              "xp": 10888.9,
+              "level": 90,
+              "chronotes": 726,
+              "materials": [
+                {
+                  "name": "Felt",
+                  "quantity": 40
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 38
+                }
+              ]
+            },
+            {
+              "name": "Ritual bell",
+              "xp": 10888.9,
+              "level": 90,
+              "chronotes": 726,
+              "materials": [
+                {
+                  "name": "Goldrune",
+                  "quantity": 40
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 38
+                }
+              ]
             }
           ]
         },
         {
           "name": "Dragonkin reliquary",
           "level": 96,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "5/10"
             },
             {
-              "materialName": "Compass rose",
+              "name": "Compass rose",
               "chance": "2.5/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2.5/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Kilaya",
+              "xp": 15000,
+              "level": 96,
+              "chronotes": 794,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 46
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 40
+                }
+              ]
+            },
+            {
+              "name": "Vazara",
+              "xp": 15000,
+              "level": 96,
+              "chronotes": 794,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 30
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 28
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 28
+                }
+              ]
             }
           ]
         },
         {
           "name": "Dragonkin coffin",
           "level": 99,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "5/10"
             },
             {
-              "materialName": "Carbon black",
+              "name": "Carbon black",
               "chance": "2/10"
             },
             {
-              "materialName": "Compass rose",
+              "name": "Compass rose",
               "chance": "2/10"
             },
             {
-              "materialName": "Soapstone",
+              "name": "Soapstone",
               "chance": "1/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Death mask",
+              "xp": 17500,
+              "level": 99,
+              "chronotes": 828,
+              "materials": [
+                {
+                  "name": "Orgone",
+                  "quantity": 56
+                },
+                {
+                  "name": "Soapstone",
+                  "quantity": 34
+                }
+              ]
+            },
+            {
+              "name": "Dragonkin calendar",
+              "xp": 17500,
+              "level": 99,
+              "chronotes": 828,
+              "materials": [
+                {
+                  "name": "Orgone",
+                  "quantity": 34
+                },
+                {
+                  "name": "Carbon black",
+                  "quantity": 28
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 28
+                }
+              ]
+            },
+            {
+              "name": "Dragonkin staff",
+              "xp": 17500,
+              "level": 99,
+              "chronotes": 828,
+              "materials": [
+                {
+                  "name": "Orgone",
+                  "quantity": 56
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 34
+                }
+              ]
             }
           ]
         },
@@ -3165,7 +4361,7 @@
           "name": "Dragonkin remains",
           "materials": [
             {
-              "material": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "1/1"
             }
           ],
@@ -3187,141 +4383,437 @@
         {
           "name": "Autopsy table",
           "level": 101,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Felt",
+              "name": "Felt",
               "chance": "5/10"
             },
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "2.5/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2.5/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Dragon scalpel",
+              "xp": 19833.3,
+              "level": 101,
+              "chronotes": 860,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 52
+                },
+                {
+                  "name": "Felt",
+                  "quantity": 42
+                }
+              ]
+            },
+            {
+              "name": "Protective goggles",
+              "xp": 19833.3,
+              "level": 101,
+              "chronotes": 860,
+              "materials": [
+                {
+                  "name": "Orthenglass",
+                  "quantity": 52
+                },
+                {
+                  "name": "Felt",
+                  "quantity": 42
+                }
+              ]
             }
           ]
         },
         {
           "name": "Experiment workbench",
           "level": 102,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "5/10"
             },
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "2.5/10"
             },
             {
-              "materialName": "Orthenglass",
+              "name": "Orthenglass",
               "chance": "2.5/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Dragon burner",
+              "xp": 21000,
+              "level": 102,
+              "chronotes": 862,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 52
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 42
+                }
+              ]
+            },
+            {
+              "name": "Orthenglass flask",
+              "xp": 21000,
+              "level": 102,
+              "chronotes": 862,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 34
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 60
+                }
+              ]
             }
           ]
         },
         {
           "name": "Aughra remains",
           "level": 106,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "5/10"
             },
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "2/10"
             },
             {
-              "materialName": "Carbon black",
+              "name": "Carbon black",
               "chance": "1/10"
             },
             {
-              "materialName": "Compass rose",
+              "name": "Compass rose",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Meditation pipe",
+              "xp": 25666.7,
+              "level": 106,
+              "chronotes": 912,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 40
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 60
+                }
+              ]
+            },
+            {
+              "name": "Personal totem",
+              "xp": 25666.7,
+              "level": 106,
+              "chronotes": 912,
+              "materials": [
+                {
+                  "name": "Carbon black",
+                  "quantity": 26
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 48
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 26
+                }
+              ]
+            },
+            {
+              "name": "Singing bowl",
+              "xp": 25666.7,
+              "level": 106,
+              "chronotes": 912,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 40
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 60
+                }
+              ]
             }
           ]
         },
         {
           "name": "Moksha device",
           "level": 108,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "3/10"
             },
             {
-              "materialName": "Carbon black",
+              "name": "Carbon black",
               "chance": "3/10"
             },
             {
-              "materialName": "Compass rose",
+              "name": "Compass rose",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Lingam stone",
+              "xp": 28333.3,
+              "level": 108,
+              "chronotes": 958,
+              "materials": [
+                {
+                  "name": "Orgone",
+                  "quantity": 44
+                },
+                {
+                  "name": "Carbon black",
+                  "quantity": 30
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 32
+                }
+              ]
+            },
+            {
+              "name": "Master control",
+              "xp": 28333.3,
+              "level": 108,
+              "chronotes": 958,
+              "materials": [
+                {
+                  "name": "Orgone",
+                  "quantity": 30
+                },
+                {
+                  "name": "Carbon black",
+                  "quantity": 32
+                },
+                {
+                  "name": "Compass rose",
+                  "quantity": 44
+                }
+              ]
             }
           ]
         },
         {
           "name": "Xolo mine",
           "level": 113,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "3/10"
             },
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "4/10"
             },
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Xolo hard hat",
+              "xp": 35000,
+              "level": 113,
+              "chronotes": 1066,
+              "materials": [
+                {
+                  "name": "Goldrune",
+                  "quantity": 54
+                },
+                {
+                  "name": "Dragon metal",
+                  "quantity": 66
+                }
+              ]
+            },
+            {
+              "name": "Xolo pickaxe",
+              "xp": 35000,
+              "level": 113,
+              "chronotes": 1066,
+              "materials": [
+                {
+                  "name": "Goldrune",
+                  "quantity": 36
+                },
+                {
+                  "name": "Dragon metal",
+                  "quantity": 50
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 34
+                }
+              ]
             }
           ]
         },
         {
           "name": "Xolo remains",
           "level": 119,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Felt",
+              "name": "Felt",
               "chance": "2/10"
             },
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "4/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Xolo shield",
+              "xp": 45000,
+              "site": "Dragonkin",
+              "level": 119,
+              "chronotes": 1204,
+              "materials": [
+                {
+                  "name": "Goldrune",
+                  "quantity": 52
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 44
+                },
+                {
+                  "name": "Felt",
+                  "quantity": 42
+                }
+              ]
+            },
+            {
+              "name": "Xolo spear",
+              "xp": 45000,
+              "level": 119,
+              "chronotes": 1204,
+              "materials": [
+                {
+                  "name": "Dragon metal",
+                  "quantity": 72
+                },
+                {
+                  "name": "Orgone",
+                  "quantity": 64
+                }
+              ]
             }
           ]
         },
         {
           "name": "Saurthen debris",
           "level": 120,
-          "digSiteName": "Dragonkin",
           "materials": [
             {
-              "materialName": "Dragon metal",
+              "name": "Dragon metal",
               "chance": "4/10"
             },
             {
-              "materialName": "Orgone",
+              "name": "Orgone",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Gold dish",
+              "xp": 46666.7,
+              "level": 120,
+              "chronotes": 1220,
+              "materials": [
+                {
+                  "name": "Goldrune",
+                  "quantity": 86
+                },
+                {
+                  "name": "Dragon metal",
+                  "quantity": 54
+                }
+              ]
+            },
+            {
+              "name": "'Raksha' idol",
+              "xp": 46666.7,
+              "level": 120,
+              "chronotes": 1220,
+              "materials": [
+                {
+                  "name": "Orgone",
+                  "quantity": 56
+                },
+                {
+                  "name": "Dragon metal",
+                  "quantity": 44
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 40
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Orthen rubble",
+          "level": 90,
+          "materials": [
+            {
+              "name": "Orthenglass",
+              "chance": "1/1"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Ceremonial dragonkin tablet",
+              "xp": 10889.9,
+              "level": 90,
+              "chronotes": 733,
+              "materials": [
+                {
+                  "name": "Orthenglass",
+                  "quantity": 79
+                }
+              ]
             }
           ]
         }
@@ -3335,19 +4827,19 @@
           "level": 76,
           "materials": [
             {
-              "materialName": "Malachite green",
+              "name": "Malachite green",
               "chance": "2/10"
             },
             {
-              "materialName": "Mark of the Kyzaj",
+              "name": "Mark of the Kyzaj",
               "chance": "3/10"
             },
             {
-              "materialName": "Vulcanised rubber",
+              "name": "Vulcanised rubber",
               "chance": "3/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "2/10"
             }
           ],
@@ -3415,15 +4907,15 @@
           "level": 81,
           "materials": [
             {
-              "materialName": "Fossilised bone",
+              "name": "Fossilised bone",
               "chance": "4/10"
             },
             {
-              "materialName": "Mark of the Kyzaj",
+              "name": "Mark of the Kyzaj",
               "chance": "3/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "3/10"
             }
           ],
@@ -3471,19 +4963,19 @@
           "level": 83,
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "2/10"
             },
             {
-              "materialName": "Malachite green",
+              "name": "Malachite green",
               "chance": "3/10"
             },
             {
-              "materialName": "Vulcanised rubber",
+              "name": "Vulcanised rubber",
               "chance": "2/10"
             },
             {
-              "materialName": "Yu\u0027biusk clay",
+              "name": "Yu\u0027biusk clay",
               "chance": "3/10"
             }
           ],
@@ -3537,164 +5029,569 @@
         {
           "name": "Big High War God shrine",
           "level": 89,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Samite silk",
+              "name": "Samite silk",
               "chance": "2/10"
             },
             {
-              "materialName": "Goldrune",
+              "name": "Goldrune",
               "chance": "2/10"
             },
             {
-              "materialName": "Malachite green",
+              "name": "Malachite green",
               "chance": "3/10"
             },
             {
-              "materialName": "Mark of the Kyzaj",
+              "name": "Mark of the Kyzaj",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "High priest crozier",
+              "xp": 10500.0,
+              "level": 89,
+              "chronotes": 724,
+              "materials": [
+                {
+                  "name": "Mark of the Kyzaj",
+                  "quantity": 26
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 24
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 28
+                }
+              ]
+            },
+            {
+              "name": "High priest mitre",
+              "xp": 10500.0,
+              "level": 89,
+              "chronotes": 724,
+              "materials": [
+                {
+                  "name": "Mark of the Kyzaj",
+                  "quantity": 26
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 24
+                },
+                {
+                  "name": "Samite silk",
+                  "quantity": 28
+                }
+              ]
+            },
+            {
+              "name": "High priest orb",
+              "xp": 10500.0,
+              "level": 89,
+              "chronotes": 724,
+              "materials": [
+                {
+                  "name": "Mark of the Kyzaj",
+                  "quantity": 26
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 24
+                },
+                {
+                  "name": "Goldrune",
+                  "quantity": 28
+                }
+              ]
             }
           ]
         },
         {
-          "name": "Yu\u0027biusk animal pen",
+          "name": "Yu'biusk animal pen",
           "level": 94,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Yu\u0027biusk clay",
+              "name": "Yu\u0027biusk clay",
               "chance": "3/10"
             },
             {
-              "materialName": "Fossilised bone",
+              "name": "Fossilised bone",
               "chance": "2/10"
             },
             {
-              "materialName": "Vulcanised rubber",
+              "name": "Vulcanised rubber",
               "chance": "3/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Beastkeeper helm",
+              "xp": 13333.3,
+              "level": 94,
+              "chronotes": 776,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 16
+                },
+                {
+                  "name": "Vulcanised rubber",
+                  "quantity": 24
+                },
+                {
+                  "name": "Animal furs",
+                  "quantity": 20
+                },
+                {
+                  "name": "Fossilised bone",
+                  "quantity": 24
+                }
+              ]
+            },
+            {
+              "name": "Idithuun horn ring",
+              "xp": 13333.3,
+              "level": 94,
+              "chronotes": 776,
+              "materials": [
+                {
+                  "name": "Yu'biusk clay",
+                  "quantity": 40
+                },
+                {
+                  "name": "Vulcanised rubber",
+                  "quantity": 44
+                }
+              ]
+            },
+            {
+              "name": "'Nosorog!' sculpture",
+              "xp": 13333.3,
+              "level": 94,
+              "chronotes": 776,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 30
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 24
+                },
+                {
+                  "name": "Yu'biusk clay",
+                  "quantity": 30
+                }
+              ]
             }
           ]
         },
         {
           "name": "Goblin trainee remains",
           "level": 97,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "2/10"
             },
             {
-              "materialName": "Leather scraps",
+              "name": "Leather scraps",
               "chance": "2/10"
             },
             {
-              "materialName": "Fossilised bone",
+              "name": "Fossilised bone",
               "chance": "3/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "3/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Garagorshuun anchor",
+              "xp": 15833.3,
+              "level": 97,
+              "chronotes": 810,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 32
+                },
+                {
+                  "name": "Mark of the Kyzaj",
+                  "quantity": 26
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 30
+                }
+              ]
+            },
+            {
+              "name": "Ourg megahitter",
+              "xp": 15833.3,
+              "level": 97,
+              "chronotes": 810,
+              "materials": [
+                {
+                  "name": "White oak",
+                  "quantity": 20
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 20
+                },
+                {
+                  "name": "Orthenglass",
+                  "quantity": 20
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 20
+                }
+              ]
+            },
+            {
+              "name": "Ourg tower/goblin cower shield",
+              "xp": 15833.3,
+              "level": 97,
+              "chronotes": 810,
+              "materials": [
+                {
+                  "name": "Mark of the Kyzaj",
+                  "quantity": 20
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 26
+                },
+                {
+                  "name": "Leather scraps",
+                  "quantity": 22
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 20
+                }
+              ]
             }
           ]
         },
         {
-          "name": "Kyzaj champion\u0027s boudoir",
+          "name": "Kyzaj champion's boudoir",
           "level": 100,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "White oak",
+              "name": "White oak",
               "chance": "3/10"
             },
             {
-              "materialName": "Yu\u0027biusk clay",
+              "name": "Yu\u0027biusk clay",
               "chance": "3/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Dorgeshuun spear",
+              "xp": 18666.7,
+              "level": 100,
+              "chronotes": 844,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 50
+                },
+                {
+                  "name": "White oak",
+                  "quantity": 42
+                }
+              ]
+            },
+            {
+              "name": "'Forged in War' sculpture",
+              "xp": 18666.7,
+              "level": 100,
+              "chronotes": 844,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 50
+                },
+                {
+                  "name": "Yu'biusk clay",
+                  "quantity": 42
+                },
+                {
+                  "name": "Emerald",
+                  "quantity": 1
+                }
+              ]
             }
           ]
         },
         {
           "name": "Warforge scrap pile",
           "level": 104,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Third Age iron",
+              "name": "Third Age iron",
               "chance": "5/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "5/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Huzamogaarb chaos crown",
+              "xp": 23333.3,
+              "site": "Bandos",
+              "level": 104,
+              "chronotes": 894,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 44
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 34
+                },
+                {
+                  "name": "Eye of Dagon",
+                  "quantity": 20
+                }
+              ]
+            },
+            {
+              "name": "Saragorgak star crown",
+              "xp": 23333.3,
+              "level": 104,
+              "chronotes": 894,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 44
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 34
+                },
+                {
+                  "name": "Star of Saradomin",
+                  "quantity": 20
+                }
+              ]
             }
           ]
         },
         {
           "name": "Warforge weapon rack",
           "level": 110,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Fossilised bone",
+              "name": "Fossilised bone",
               "chance": "3/10"
             },
             {
-              "materialName": "Malachite green",
+              "name": "Malachite green",
               "chance": "3/10"
             },
             {
-              "materialName": "Warforged bronze",
+              "name": "Warforged bronze",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Drogokishuun hook sword",
+              "xp": 31000,
+              "level": 110,
+              "chronotes": 1004,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 44
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 36
+                },
+                {
+                  "name": "Fossilised bone",
+                  "quantity": 32
+                }
+              ]
+            },
+            {
+              "name": "Hobgoblin mansticker",
+              "xp": 31000,
+              "level": 110,
+              "chronotes": 1004,
+              "materials": [
+                {
+                  "name": "Warforged bronze",
+                  "quantity": 66
+                },
+                {
+                  "name": "Fossilised bone",
+                  "quantity": 46
+                }
+              ]
             }
           ]
         },
         {
-          "name": "Bandos\u0027s sanctum debris",
+          "name": "Bandos's sanctum debris",
           "level": 115,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Fossilised bone",
+              "name": "Fossilised bone",
               "chance": "3/10"
             },
             {
-              "materialName": "Animal furs",
+              "name": "Animal furs",
               "chance": "2/10"
             },
             {
-              "materialName": "Vulcanised rubber",
+              "name": "Vulcanised rubber",
               "chance": "3/10"
             },
             {
-              "materialName": "Yu\u0027biusk clay",
+              "name": "Yu\u0027biusk clay",
               "chance": "2/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Kal-i-kra chieftain crown",
+              "xp": 38333.3,
+              "level": 115,
+              "chronotes": 1112,
+              "materials": [
+                {
+                  "name": "Yu'biusk clay",
+                  "quantity": 36
+                },
+                {
+                  "name": "Animal furs",
+                  "quantity": 48
+                }
+              ]
+            },
+            {
+              "name": "Kal-i-kra mace",
+              "xp": 38333.3,
+              "level": 115,
+              "chronotes": 1112,
+              "materials": [
+                {
+                  "name": "Vulcanised rubber",
+                  "quantity": 42
+                },
+                {
+                  "name": "Third Age iron",
+                  "quantity": 44
+                },
+                {
+                  "name": "Fossilised bone",
+                  "quantity": 40
+                }
+              ]
+            },
+            {
+              "name": "Kal-i-kra warhorn",
+              "xp": 38333.3,
+              "level": 115,
+              "chronotes": 1112,
+              "materials": [
+                {
+                  "name": "Vulcanised rubber",
+                  "quantity": 44
+                },
+                {
+                  "name": "Animal furs",
+                  "quantity": 40
+                },
+                {
+                  "name": "Fossilised bone",
+                  "quantity": 42
+                }
+              ]
             }
           ]
         },
         {
           "name": "Makeshift pie oven",
           "level": 119,
-          "digSiteName": "Bandos",
           "materials": [
             {
-              "materialName": "Soapstone",
+              "name": "Soapstone",
               "chance": "3/10"
             },
             {
-              "materialName": "Malachite green",
+              "name": "Malachite green",
               "chance": "3/10"
             },
             {
-              "materialName": "Yu\u0027biusk clay",
+              "name": "Yu\u0027biusk clay",
               "chance": "4/10"
+            }
+          ],
+          "artefacts": [
+            {
+              "name": "Horogothgar cooking pot",
+              "xp": 45000,
+              "level": 119,
+              "chronotes": 1204,
+              "materials": [
+                {
+                  "name": "Yu'biusk clay",
+                  "quantity": 60
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 38
+                },
+                {
+                  "name": "Soapstone",
+                  "quantity": 40
+                }
+              ]
+            },
+            {
+              "name": "'Da Boss Man' sculpture",
+              "xp": 45000,
+              "level": 119,
+              "chronotes": 1204,
+              "materials": [
+                {
+                  "name": "Yu'biusk clay",
+                  "quantity": 50
+                },
+                {
+                  "name": "Malachite green",
+                  "quantity": 44
+                },
+                {
+                  "name": "Soapstone",
+                  "quantity": 40
+                }
+              ]
             }
           ]
         }
