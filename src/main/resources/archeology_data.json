@@ -3999,6 +3999,7 @@
         },
         {
           "name": "Aetherium forge",
+          "level": 112,
           "materials": [
             {
               "name": "Goldrune",
@@ -4359,6 +4360,7 @@
         },
         {
           "name": "Dragonkin remains",
+          "level": 70,
           "materials": [
             {
               "name": "Orthenglass",
