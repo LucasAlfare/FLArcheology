@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version "1.8.20"
-    application
+    `maven-publish`
 }
 
 group = "com.lucasalfare.flarqueology"
@@ -11,18 +11,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
     implementation("com.google.code.gson:gson:2.8.9")
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
-
-kotlin {
-    jvmToolchain(11)
-}
-
-application {
-    mainClass.set("MainKt")
+publishing {
+    publications {
+        create<MavenPublication>("Maven") {
+            from(components["kotlin"])
+        }
+    }
 }

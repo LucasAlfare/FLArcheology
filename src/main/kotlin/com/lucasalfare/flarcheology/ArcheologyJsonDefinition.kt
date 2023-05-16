@@ -1,4 +1,4 @@
-package loader
+package com.lucasalfare.flarcheology
 
 
 import com.google.gson.Gson
@@ -184,26 +184,9 @@ data class ArcheologyDefinition(
  * Parses the root data JSON file to text/string format,
  * reads it using the defined data structure and return the main result.
  */
-fun getArcheologyJsonDefinitions(pathname: String = "json/archeology_data.json"): ArcheologyDefinition {
+fun getArcheologyJsonDefinitions(
+  pathname: String = "src/main/resources/archeology_data.json"
+): ArcheologyDefinition {
   val jsonDataText = File(pathname).readText()
   return Gson().fromJson(jsonDataText, ArcheologyDefinition::class.java)
-}
-
-fun getInfo(): List<String> {
-  val definitions = getArcheologyJsonDefinitions()
-  val desiredDigsiteName = "Saradomin"
-  val desiredLevelRange = 50..80
-
-  val searchResults = mutableListOf<String>()
-  definitions.sites.forEach { digsite ->
-    if (digsite.name == desiredDigsiteName) {
-      digsite.hotspots.forEach { hotspot ->
-        if (hotspot.level in desiredLevelRange) {
-          searchResults += hotspot.name
-        }
-      }
-    }
-  }
-
-  return searchResults
 }
