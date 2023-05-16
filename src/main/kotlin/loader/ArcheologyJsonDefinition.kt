@@ -1,3 +1,8 @@
+package loader
+
+import com.google.gson.Gson
+import java.io.File
+
 data class SpotMaterial(
   val name: String,
   val chance: String
@@ -97,8 +102,44 @@ data class Site(
   }
 }
 
+data class RepeatableReward(val chronotes: Int)
+
+data class Collection(
+  val name: String,
+  val level: Int,
+  val reward: String?,
+  val collector: String,
+  val repeatableReward: RepeatableReward,
+  val artefacts: Array<String>
+) {
+  override fun equals(other: Any?): Boolean {
+    if (this === other) return true
+    if (javaClass != other?.javaClass) return false
+
+    other as Collection
+
+    if (name != other.name) return false
+    if (level != other.level) return false
+    if (reward != other.reward) return false
+    if (collector != other.collector) return false
+    if (repeatableReward != other.repeatableReward) return false
+    return artefacts.contentEquals(other.artefacts)
+  }
+
+  override fun hashCode(): Int {
+    var result = name.hashCode()
+    result = 31 * result + level
+    result = 31 * result + (reward?.hashCode() ?: 0)
+    result = 31 * result + collector.hashCode()
+    result = 31 * result + repeatableReward.hashCode()
+    result = 31 * result + artefacts.contentHashCode()
+    return result
+  }
+}
+
 data class ArcheologyDefinition(
-  val sites: Array<Site>
+  val sites: Array<Site>,
+  val collections: Array<Collection>
 ) {
   override fun equals(other: Any?): Boolean {
     if (this === other) return true
@@ -112,4 +153,13 @@ data class ArcheologyDefinition(
   override fun hashCode(): Int {
     return sites.contentHashCode()
   }
+}
+
+/**
+ * Parses the root data JSON file to text/string format,
+ * reads it using the defined data structure and return the main result.
+ */
+fun getArcheologyJsonDefinitions(): ArcheologyDefinition {
+  val jsonDataText = File("json/archeology_data.json").readText()
+  return Gson().fromJson(jsonDataText, ArcheologyDefinition::class.java)
 }
