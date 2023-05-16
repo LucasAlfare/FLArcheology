@@ -20,17 +20,15 @@ class ArcheologyInfoProvider(jsonPathname: String = "src/main/resources/archeolo
     }
   }
 
-  fun getBestSpotsToDigOnLevel(
-    targetLevel: Int = 1,
+  fun getBestSpotsToDig(
+    targetLevel: Int = 120,
     targetSiteName: String = ""
   ): List<HotspotInfo> {
     val results = mutableListOf<HotspotInfo>()
 
     val nextData =
-      if (targetSiteName.isNotEmpty())
-        data!!.sites.filter { it.name == targetSiteName }
-      else
-        data!!.sites.filter { it.name != "Special" }
+      if (targetSiteName.isNotEmpty()) data!!.sites.filter { it.name == targetSiteName }
+      else data!!.sites.filter { it.name != "Special" }
 
     nextData.forEach { site ->
       var candidate = site.hotspots.first()
@@ -52,10 +50,10 @@ class ArcheologyInfoProvider(jsonPathname: String = "src/main/resources/archeolo
   }
 
   fun getBestArtefactsToRestoreOnLevel(
-    targetLevel: Int = 1,
+    targetLevel: Int = 120,
     targetSiteName: String = ""
   ): List<ArtefactInfo> {
-    val bestSpotsForLevel = getBestSpotsToDigOnLevel(
+    val bestSpotsForLevel = getBestSpotsToDig(
       targetLevel = targetLevel,
       targetSiteName = targetSiteName
     )
