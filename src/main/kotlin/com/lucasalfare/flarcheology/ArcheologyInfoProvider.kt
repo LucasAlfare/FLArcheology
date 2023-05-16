@@ -11,8 +11,12 @@ data class ArtefactInfo(
 )
 
 private var data: ArcheologyDefinition? = null
+private const val DEFAULT_JSON_DATA_LOCATION = "src/main/resources/archeology_data.json"
 
-class ArcheologyInfoProvider(jsonPathname: String = "src/main/resources/archeology_data.json") {
+// TODO: CREATE a function to find ALL spots until target level
+class ArcheologyInfoProvider(
+  jsonPathname: String = DEFAULT_JSON_DATA_LOCATION
+) {
 
   init {
     if (data == null) {
