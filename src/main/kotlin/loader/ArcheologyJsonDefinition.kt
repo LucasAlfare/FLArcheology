@@ -1,7 +1,43 @@
 package loader
 
+
 import com.google.gson.Gson
 import java.io.File
+
+/**
+ * This file describes, in terms of Kotlin language, the data structure
+ * that the main JSON data file has.
+ *
+ * The main purpose of these data classes in this file is to define where
+ * each JSON field should go.
+ * However, these classes -- and their data fields -- can be used to build
+ * other useful functions, such as filters that retrieve information about
+ * a certain piece of the JSON data.
+ *
+ * For example, it is possible to find all spots that are playable for someone of
+ * archeology level 80 at "Saradomin" digsite by doing something like:
+ *
+ * ```kotlin
+ * fun getInfo(): List<String> {
+ *   val definitions = getArcheologyJsonDefinitions()
+ *   val desiredDigsiteName = "Saradomin"
+ *   val desiredLevelRange = 50..80
+ *
+ *   val searchResults = mutableListOf<String>()
+ *   definitions.sites.forEach {  digsite ->
+ *     if (digsite.name == desiredDigsiteName) {
+ *       digsite.hotspots.forEach {  hotspot ->
+ *         if (hotspot.level in desiredLevelRange) {
+ *           searchResults += hotspot.name
+ *         }
+ *       }
+ *     }
+ *   }
+ *
+ *   return searchResults
+ * }
+ * ```
+ */
 
 data class SpotMaterial(
   val name: String,
@@ -162,4 +198,23 @@ data class ArcheologyDefinition(
 fun getArcheologyJsonDefinitions(pathname: String = "json/archeology_data.json"): ArcheologyDefinition {
   val jsonDataText = File(pathname).readText()
   return Gson().fromJson(jsonDataText, ArcheologyDefinition::class.java)
+}
+
+fun getInfo(): List<String> {
+  val definitions = getArcheologyJsonDefinitions()
+  val desiredDigsiteName = "Saradomin"
+  val desiredLevelRange = 50..80
+
+  val searchResults = mutableListOf<String>()
+  definitions.sites.forEach { digsite ->
+    if (digsite.name == desiredDigsiteName) {
+      digsite.hotspots.forEach { hotspot ->
+        if (hotspot.level in desiredLevelRange) {
+          searchResults += hotspot.name
+        }
+      }
+    }
+  }
+
+  return searchResults
 }
