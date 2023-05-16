@@ -159,7 +159,7 @@ data class ArcheologyDefinition(
  * Parses the root data JSON file to text/string format,
  * reads it using the defined data structure and return the main result.
  */
-fun getArcheologyJsonDefinitions(): ArcheologyDefinition {
-  val jsonDataText = File("json/archeology_data.json").readText()
+fun getArcheologyJsonDefinitions(pathname: String = "json/archeology_data.json"): ArcheologyDefinition {
+  val jsonDataText = File(pathname).readText()
   return Gson().fromJson(jsonDataText, ArcheologyDefinition::class.java)
 }
