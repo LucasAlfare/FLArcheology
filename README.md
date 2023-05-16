@@ -111,3 +111,11 @@ dependencies {
     implementation 'com.github.LucasAlfare:FLArcheology:v1.0'
 }
 ```
+
+# TODO
+
+Here are some items that should (MUST!) be implemented in the root JSON data file:
+- Relics;
+- Expedition information;
+- Archeology's store items and prices;
+- All items imagesa references?
