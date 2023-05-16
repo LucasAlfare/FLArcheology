@@ -59,6 +59,14 @@ The main JSON data file has its structure based on the following hierarchy:
 }
 ```
 
+# Nomenclature system
+
+There are some details about nomenclatures to be said:
+
+- `Digsite`/`Site`: refers to the general area that contains excavation spots;
+- `Spot`/`Hotspot`: location that is possible to get materials and artefacts;
+- `Chance`: the ratio that corresponds to the actual chance of getting the material when digging a spot.
+
 # The Kotlin API
 
 Currently, there's no pretty API to use.
@@ -115,6 +123,7 @@ dependencies {
 # TODO
 
 Here are some items that should (MUST!) be implemented in the root JSON data file:
+
 - Relics;
 - Expedition information;
 - Archeology's store items and prices;
