@@ -110,17 +110,6 @@ data class Site(
   val name: String,
   val hotspots: Array<Hotspot>
 ) {
-  companion object {
-    enum class SiteName {
-      Zaros,
-      Zamorak,
-      Saradomin,
-      Armadyl,
-      Bandos,
-      Dragonkin
-    }
-  }
-
   override fun equals(other: Any?): Boolean {
     if (this === other) return true
     if (javaClass != other?.javaClass) return false

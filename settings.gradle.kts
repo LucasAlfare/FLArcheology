@@ -1,3 +1,3 @@
 
-rootProject.name = "FLArqueology"
+rootProject.name = "FLArcheology"
 
