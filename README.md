@@ -127,4 +127,4 @@ Here are some items that should (MUST!) be implemented in the root JSON data fil
 - Relics;
 - Expedition information;
 - Archeology's store items and prices;
-- All items imagesa references?
+- All items images references?
