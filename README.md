@@ -1,4 +1,4 @@
-# FLArqueology
+# FLArcheology
 
 My own experiments in creating a custom tool to help me in Runescape3 Archeology skill.
 
