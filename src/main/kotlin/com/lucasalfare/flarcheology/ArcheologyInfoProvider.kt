@@ -27,7 +27,10 @@ private const val DEFAULT_JSON_DATA_LOCATION = "src/main/resources/archeology_da
 class ArcheologyInfoProvider(jsonPathname: String = DEFAULT_JSON_DATA_LOCATION) {
 
   init {
-    if (data == null) data = getArcheologyJsonDefinitions(jsonPathname)
+    data.let {
+      data = getArcheologyJsonDefinitions(jsonPathname)
+    }
+    //if (data == null) data = getArcheologyJsonDefinitions(jsonPathname)
   }
 
   fun getAllSites() = data!!.sites.toList()
