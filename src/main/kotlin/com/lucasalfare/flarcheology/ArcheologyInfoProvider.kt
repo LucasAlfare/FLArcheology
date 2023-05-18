@@ -1,29 +1,8 @@
+@file:Suppress("MemberVisibilityCanBePrivate")
+
 package com.lucasalfare.flarcheology
 
-data class HotspotInfo(
-  val hotspot: Hotspot,
-  val site: Site
-) {
-
-  fun containsMaterial(materialName: String) = hotspot.materials.any { it.name == materialName }
-
-  fun containsArtefact(artefactName: String) = hotspot.artefacts.any { it.name == artefactName }
-}
-
-data class ArtefactInfo(
-  val artefact: Artefact,
-  val hotspotInfo: HotspotInfo
-)
-
-data class MaterialInfo(
-  val material: SpotMaterial,
-  val hotspotInfo: HotspotInfo
-)
-
-private var data: ArcheologyDefinition? = null
-private const val DEFAULT_JSON_DATA_LOCATION = "src/main/resources/archeology_data.json"
-
-val notExcavationMaterials = arrayOf(
+val nonExcavationOnlyMaterials = arrayOf(
   "Dragonstone",
   "Molten glass",
   "Death rune",
@@ -40,6 +19,10 @@ val notExcavationMaterials = arrayOf(
   "Weapon poison (3)",
   "Emerald"
 )
+
+private var data: ArcheologyDefinition? = null
+
+private const val DEFAULT_JSON_DATA_LOCATION = "src/main/resources/archeology_data.json"
 
 class ArcheologyInfoProvider(jsonPathname: String = DEFAULT_JSON_DATA_LOCATION) {
 
@@ -90,6 +73,29 @@ class ArcheologyInfoProvider(jsonPathname: String = DEFAULT_JSON_DATA_LOCATION) 
 
     return materials
   }
-
-  fun containsMaterial(materialName: String) = getAllMaterials().any { it.material.name == materialName }
 }
+
+fun isExcavationOnlyMaterial(materialName: String) =
+  !(nonExcavationOnlyMaterials.any { materialName == it })
+
+data class HotspotInfo(
+  val hotspot: Hotspot,
+  val site: Site
+) {
+
+  fun containsMaterial(materialName: String) =
+    hotspot.materials.any { it.name == materialName }
+
+  fun containsArtefact(artefactName: String) =
+    hotspot.artefacts.any { it.name == artefactName }
+}
+
+data class ArtefactInfo(
+  val artefact: Artefact,
+  val hotspotInfo: HotspotInfo
+)
+
+data class MaterialInfo(
+  val material: SpotMaterial,
+  val hotspotInfo: HotspotInfo
+)
