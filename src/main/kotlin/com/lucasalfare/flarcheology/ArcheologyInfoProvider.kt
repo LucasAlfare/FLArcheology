@@ -22,15 +22,12 @@ val nonExcavationOnlyMaterials = arrayOf(
 
 private var data: ArcheologyDefinition? = null
 
-private const val DEFAULT_JSON_DATA_LOCATION = "src/main/resources/archeology_data.json"
+const val DEFAULT_JSON_DATA_LOCATION = "src/main/resources/archeology_data.json"
 
 class ArcheologyInfoProvider(jsonPathname: String = DEFAULT_JSON_DATA_LOCATION) {
 
   init {
-    data.let {
-      data = getArcheologyJsonDefinitions(jsonPathname)
-    }
-    //if (data == null) data = getArcheologyJsonDefinitions(jsonPathname)
+    if (data == null) data = getArcheologyJsonDefinitions(jsonPathname)
   }
 
   fun getAllSites() = data!!.sites.toList()
