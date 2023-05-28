@@ -125,6 +125,7 @@ dependencies {
 Here are some items that should (MUST!) be implemented in the root JSON data file:
 
 - Relics;
+- Misteries;
 - Expedition information;
 - Archeology's store items and prices;
 - All items images references?
