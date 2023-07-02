@@ -59,7 +59,7 @@ The main JSON data file has its structure based on the following hierarchy:
 }
 ```
 
-# Nomenclature system
+# Maming system
 
 There are some details about nomenclatures to be said:
 
